@@ -211,13 +211,51 @@ Badges de herramientas (`.tb`):
 
 ---
 
-## §6 · Checklist de QA antes de publicar
+## §6 · QA con herramientas Playwright (`slidev/herramientas/`)
+
+Las diapositivas se revisan por métrica con los scripts copiados del
+proyecto base (Playwright + `playwright-chromium`, ya en `slidev/`).
+
+**Nota importante**: los decks compilados usan la base absoluta de Pages
+(`/FormacionIA-Agentes/…`) y rutas de historial (`/1`, `/2`…), por lo que
+necesitan un servidor estático con fallback SPA. Se incluye uno:
+
+```bash
+cd slidev/herramientas
+python3 server.py 8123            # sirve la RAÍZ del repo como GitHub Pages
+#   http://localhost:8123/FormacionIA-Agentes/<slug>/N → slide N
+```
+
+El servidor resuelve tres trampas al servir builds de Slidev con python:
+directory real (no `os.getcwd()`), rutas de historial inexistentes →
+`index.html` del deck (fallback SPA) y no tragar los assets como HTML.
+
+Scripts (todos desde `slidev/`, contra `http://localhost:8123/FormacionIA-Agentes/<slug>/`):
+
+| Script | Qué mide | Notas |
+|--------|----------|-------|
+| `measure.mjs <url>` | px de desborde por slide | recorre `/1…/N` automáticamente |
+| `debug-overflow.mjs <url> <N>` | detalle de los elementos que desbordan | top-12 culpables |
+| `check-empty.mjs <url> <N-slides>` | slides vacías/sosas | <40 chars (salta cover/closing) |
+| `check-contrast.mjs <url>` | contraste WCAG de bloques `<pre>` (AA ≥ 4.5) | usa la vista `?print` del build |
+| `screenshot.mjs <url> <N> [out.png]` | captura de una slide | para revisión visual |
+| `measure-export.mjs <url>` | desborde en vista export/PDF | adaptada a `?print` (queda por terminar) |
+
+⚠️ Detalles conocidos: con la barra final sin recortar la app no monta
+(`check-empty` lo corrige recortando `/+$/`); en la vista `?print` solo
+la slide 1 tiene altura, así que `measure-export` devuelve `de 1` — usar
+`measure.mjs` como referencia de desbordes por slide.
+
+## §7 · Checklist de QA antes de publicar
 
 - [ ] `node build-todos.mjs build` sin errores ni avisos de hidratación
-- [ ] PDFs regenerados y presentes en la raíz (6)
-- [ ] Carpetas `0N-<tema>/` actualizadas en la raíz (6)
+- [ ] PDFs regenerados y presentes en la raíz (8 decks)
+- [ ] Carpetas `0N-<tema>/` actualizadas en la raíz (8 decks)
 - [ ] Rutas de audio relativas (`../audio-…/`) intactas tras el build
 - [ ] Número de audios por deck = número de diapositivas (NN consecutivos desde 00)
 - [ ] `index.html` sin enlaces rotos (`grep -o 'href="[^"]*"' index.html`)
 - [ ] `README.md` con la tabla de presentaciones y contadores actualizados
+- [ ] QA por métrica (§6): `measure` y `check-empty` en los 8 decks sin salidas
+- [ ] `check-contrast` AA ≥ 4.5 en los 8 decks
 - [ ] Commit con los decks + PDFs + audio + carpetas publicadas
+- [ ] `git push` y verificación online (cada tarjeta del `index.html` responde 200)
