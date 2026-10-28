@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IA como Copiloto · Codificar con agentes · Sergi Garcia Barea</title>
-  <meta name="description" content="6 presentaciones interactivas para aprender a codificar con agentes de IA gratuitos: OpenCode, Freebuff, Claude Code, Codex y Antigravity. Plan y hacer, AGENTS.md y skills, MCPs y DevOps.">
+  <meta name="description" content="8 presentaciones interactivas para aprender a codificar con agentes de IA gratuitos: OpenCode, Freebuff, Claude Code, Codex y Antigravity. Plan y hacer, AGENTS.md y skills, MCPs, IaC y documentación como código.">
   <meta property="og:title" content="IA como Copiloto · Codificar con agentes">
-  <meta property="og:description" content="6 presentaciones con prompts prácticos sobre agentes de IA: agentes, plan/hacer, AGENTS.md y skills, ejemplos de desarrollo, MCPs y DevOps. Audio narrado y PDF.">
+  <meta property="og:description" content="8 presentaciones con prompts prácticos sobre agentes de IA: agentes, plan/hacer, AGENTS.md y skills, ejemplos, MCPs, IaC y documentación. Audio narrado y PDF.">
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#0f2b4a">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%22.9em%22 font-size=%22108%22>🤖</text></svg>">
@@ -64,6 +64,8 @@
     .num-4 { background: linear-gradient(135deg, #0d9488, #14b8a6); }
     .num-5 { background: linear-gradient(135deg, #6d28d9, #5b21b6); }
     .num-6 { background: linear-gradient(135deg, #ea580c, #f97316); }
+    .num-7 { background: linear-gradient(135deg, #4338ca, #6366f1); }
+    .num-8 { background: linear-gradient(135deg, #be185d, #ec4899); }
     .card .body { flex: 1; padding: .75em .85em; min-width: 0; }
     .card .body h3 { font-size: .84em; font-weight: 700; color: var(--text); margin-bottom: .15em; line-height: 1.25; }
     .card .body .desc { font-size: .68em; color: var(--muted); margin-bottom: .3em; line-height: 1.45; }
@@ -110,10 +112,10 @@
 
   <header>
     <h1>🤖 IA como Copiloto<br><span>Codificar con agentes</span></h1>
-    <p class="subtitle">Una serie de presentaciones para aprender, poco a poco, a usar agentes de código gratuitos en el desarrollo y en las operaciones: plan y hacer, AGENTS.md y skills, plugins y MCPs, Docker y CI/CD.</p>
+    <p class="subtitle">Una serie de presentaciones para aprender, poco a poco, a usar agentes de código gratuitos en el desarrollo y en las operaciones: plan y hacer, AGENTS.md y skills, plugins y MCPs, IaC y documentación as code.</p>
     <div class="badges">
-      <span>🎯 6 presentaciones</span>
-      <span>📊 74 diapositivas</span>
+      <span>🎯 8 presentaciones</span>
+      <span>📊 97 diapositivas</span>
       <span>🎙️ Audio narrado</span>
       <span>📄 PDF imprimible</span>
       <span>🌱 De básico a avanzado</span>
@@ -124,7 +126,7 @@
   <div class="container" id="presentaciones">
     <div class="section-header">
       <h2>📋 Presentaciones</h2>
-      <span class="count">74 diapositivas · 6 presentaciones</span>
+      <span class="count">97 diapositivas · 8 presentaciones</span>
     </div>
     <p style="font-size:.8em;color:var(--subtle);margin-bottom:1.2em;">Ordenadas por dificultad. Herramientas de producción gratuitas: <strong>OpenCode</strong> (agente CLI open source) y <strong>Freebuff</strong> (agente web), citando también Claude Code, Codex y Antigravity.</p>
 
@@ -177,9 +179,9 @@
       <div class="card">
         <div class="num num-3">3</div>
         <div class="body">
-          <h3>AGENTS.md y skills</h3>
-          <p class="desc">El manual del proyecto y las recetas por tipo de tarea: estructura de un AGENTS.md real, skills propios y de la comunidad, y todo el contexto extra que el agente lee.</p>
-          <p class="audience">🎯 Para enseñar a tu agente · 📊 13 diapositivas</p>
+          <h3>AGENTS.md y skills (y handoff)</h3>
+          <p class="desc">El manual del proyecto y las recetas por tipo de tarea: estructura de un AGENTS.md real, skills propios y de comunidad, el handoff a subagentes y todo el contexto extra que el agente lee.</p>
+          <p class="audience">🎯 Para enseñar a tu agente · 📊 14 diapositivas</p>
           <div class="tags">
             <span class="tag-inter">🌿 Intermedio</span>
             <span class="tag-tool">AGENTS.md</span>
@@ -250,6 +252,44 @@
         </div>
       </div>
 
+      <div class="card">
+        <div class="num num-7">7</div>
+        <div class="body">
+          <h3>Infraestructura como código</h3>
+          <p class="desc">La infra versionada: Docker Compose con healthchecks, Terraform con plan antes de apply, Containerlab para topologías de laboratorio y Ansible idempotente.</p>
+          <p class="audience">🎯 Para labs reproducibles · 📊 11 diapositivas</p>
+          <div class="tags">
+            <span class="tag-adv">🌳 Avanzado</span>
+            <span class="tag-ops">Terraform</span>
+            <span class="tag-ops">Compose</span>
+            <span class="tag-ops">Containerlab</span>
+          </div>
+          <div class="links">
+            <a class="slides" href="07-infra-as-code/">▶ VER presentación</a>
+            <a class="pdf" href="07-infra-as-code.pdf">📄 PDF</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="num num-8">8</div>
+        <div class="body">
+          <h3>Documentación como código</h3>
+          <p class="desc">Docs versionadas: Markdown en el repo, diagramas Mermaid y Excalidraw, ADRs por decisión, doc de API generada y la doc en el pipeline.</p>
+          <p class="audience">🎯 Para docs que evolucionan con el código · 📊 11 diapositivas</p>
+          <div class="tags">
+            <span class="tag-adv">🌳 Avanzado</span>
+            <span class="tag-tool">Markdown</span>
+            <span class="tag-mcp">Mermaid</span>
+            <span class="tag-mcp">Excalidraw</span>
+          </div>
+          <div class="links">
+            <a class="slides" href="08-documentacion-as-code/">▶ VER presentación</a>
+            <a class="pdf" href="08-documentacion-as-code.pdf">📄 PDF</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -260,7 +300,7 @@
       <div class="rg2">
         <div class="qcard">
           <p class="qc-title"><strong>🧭 El hilo conductor</strong></p>
-          <p class="qc-body b75">Cada parte reutiliza el flujo de la anterior: agentes → plan/hacer → AGENTS.md y skills → ejemplos de desarrollo → plugins y MCPs → dev y ops. Se pueden ver en orden o por separado.</p>
+          <p class="qc-body b75">Cada parte reutiliza el flujo de la anterior: agentes → plan/hacer → AGENTS.md y skills → ejemplos de desarrollo → plugins y MCPs → dev y ops → infraestructura como código → documentación como código. Se pueden ver en orden o por separado.</p>
         </div>
         <div class="qcard">
           <p class="qc-title"><strong>🎙️ Audio narrado</strong></p>

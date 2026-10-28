@@ -2,7 +2,7 @@
 
 **Serie de presentaciones interactivas** para aprender, paso a paso, a usar **agentes de código con IA** en el desarrollo y en las operaciones — con herramientas **100 % gratuitas** (OpenCode + Freebuff), audio narrado y PDF descargable.
 
-🎯 6 presentaciones · 📊 74 diapositivas · 🎙️ Audio narrado · 📄 PDF imprimible · 🌱 De básico a avanzado
+🎯 8 presentaciones · 📊 97 diapositivas · 🎙️ Audio narrado · 📄 PDF imprimible · 🌱 De básico a avanzado
 
 > ✨ Hecho con **Freebuff (freebuff.com) + OpenCode (opencode.ai) + Slidev (sli.dev)**. Los decks citan también Claude Code, Codex y Antigravity como agentes alternativos con capa gratuita.
 
@@ -14,10 +14,12 @@
 |---|-------------|-------|--------|------------------|
 | 1 | [👉 Agentes de código: tu copiloto 👈](https://sergarb1.github.io/FormacionIA-Agentes/01-agentes-codigo/) | 🌱 Básico | 15 | Qué es un agente (LLM con manos), para qué sirve (código, configuraciones y scripts) y el panorama: OpenCode, Freebuff, Claude Code, Codex y Antigravity. Primeras peticiones bien hechas |
 | 2 | [👉 Plan → Hacer: el flujo profesional 👈](https://sergarb1.github.io/FormacionIA-Agentes/02-plan-hacer/) | 🌿 Intermedio | 12 | Fase PLAN sin tocar código, fase HACER con pasos verificados, criterios de aceptación, frenos de emergencia (para / revertir / solo plan) y modo autónomo con control |
-| 3 | [👉 AGENTS.md y skills 👈](https://sergarb1.github.io/FormacionIA-Agentes/03-agents-md-skills/) | 🌿 Intermedio | 13 | El manual del proyecto (`AGENTS.md`), skills propios y de la comunidad (`npx skills`), cuál usar en cada caso y el contexto extra que el agente lee |
+| 3 | [👉 AGENTS.md y skills 👈](https://sergarb1.github.io/FormacionIA-Agentes/03-agents-md-skills/) | 🌿 Intermedio | 14 | El manual del proyecto (`AGENTS.md`), skills propios y de la comunidad (`npx skills`), qué es el *handoff* a subagentes y el contexto extra que el agente lee |
 | 4 | [👉 Ejemplos de desarrollo 👈](https://sergarb1.github.io/FormacionIA-Agentes/04-ejemplos-desarrollo/) | 🌳 Avanzado | 11 | 8 ejemplos con prompt completo: frontend con validación, API REST, migraciones de BD, tests de caracterización, refactor seguro, depuración, docs y Docker |
 | 5 | [👉 Plugins y MCPs 👈](https://sergarb1.github.io/FormacionIA-Agentes/05-plugins-mcp/) | 🌳 Avanzado | 12 | El estándar MCP, servidores de GitHub, base de datos (readonly) y navegador, plugins como paquetes de capacidades y seguridad con mínimo privilegio |
 | 6 | [👉 Desarrollo y Operaciones con agentes 👈](https://sergarb1.github.io/FormacionIA-Agentes/06-devops-agentes/) | 🌳 Avanzado | 11 | Docker y compose con criterio, CI/CD con GitHub Actions, scripts de despliegue, observabilidad, auditoría de seguridad y uso responsable |
+| 7 | [👉 Infraestructura como código 👈](https://sergarb1.github.io/FormacionIA-Agentes/07-infra-as-code/) | 🌳 Avanzado | 11 | Infra versionada: Docker Compose con healthchecks, Terraform con plan antes de apply, Containerlab para topologías de laboratorio, Ansible idempotente y riesgos reales | 
+| 8 | [👉 Documentación como código 👈](https://sergarb1.github.io/FormacionIA-Agentes/08-documentacion-as-code/) | 🌳 Avanzado | 11 | Docs vivas: Markdown en el repo, diagramas Mermaid y Excalidraw, ADRs por decisión, doc de API generada desde el código y la doc en el pipeline |
 
 ---
 
@@ -37,12 +39,12 @@
 ```
 📁 FormacionIA-Agentes/
 ├── 📄 index.html                    # Portada del proyecto
-├── 📁 01-…06-…/                     # Presentaciones publicadas (dist de Slidev)
-├── 📄 01-…06-…pdf                   # PDFs por presentación
+├── 📁 01-…08-…/                     # Presentaciones publicadas (dist de Slidev)
+├── 📄 01-…08-…pdf                   # PDFs por presentación
 │
 ├── 📁 slidev/                       # ⭐ Proyecto fuente (Markdown + npm)
 │   ├── package.json                 # Scripts: build / pdf
-│   ├── build-todos.mjs              # Compila y exporta los 6 decks
+│   ├── build-todos.mjs              # Compila y exporta los 8 decks
 │   ├── styles/index.css             # Estilos compartidos
 │   ├── global-bottom.vue            # Botón + reproductor de audio narrado
 │   └── 0N-<tema>.md                 # Fuente editable de cada deck

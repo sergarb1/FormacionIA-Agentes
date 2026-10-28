@@ -1,0 +1,17 @@
+{
+  "_voice": "es-ES-AlvaroNeural",
+  "_note": "Narración de 'Infraestructura como código · Parte 7'",
+  "slides": [
+    { "id": 0, "title": "Portada", "text": "Parte siete: infraestructura como código, cómo describir servidores, contenedores y redes en ficheros versionados, con el agente de IA como copiloto." },
+    { "id": 1, "title": "La infraestructura también es código", "text": "Configurar a pulso un servidor deja un conocimiento que está solo en tu cabeza. La infraestructura como código lo convierte en ficheros versionados en el repositorio: reproducibles, revisables y reconstruibles en minutos. Y el agente te ayuda a generarlos." },
+    { "id": 2, "title": "El mapa IaC", "text": "Cada capa tiene su herramienta: Docker Compose para aplicaciones y servicios, Ansible para configuración de servidores, Terraform para recursos en la nube, Containerlab para topologías de red de laboratorio y Helm para Kubernetes. El copiloto conoce todas y puede incluso traducir entre ellas." },
+    { "id": 3, "title": "Compose con criterio", "text": "Pedir un compose bien hecho significa exigir detalles: healthchecks, orden de arranque con dependencias, secretos en un archivo env fuera del repositorio, base de datos sin puertos públicos. Y sobre todo, que el agente verifique levantando y bajando el stack." },
+    { "id": 4, "title": "Terraform: plan antes de apply", "text": "Con Terraform el motor es el plan: el agente genera los ficheros, pero siempre con plan antes de apply, state remoto con bloqueo, variables separadas de los valores y cambios pequeños. Para practicar sin gastar: LocalStack o una cuenta sandbox." },
+    { "id": 5, "title": "Containerlab", "text": "Containerlab genera topologías de red reales en contenedores: routers, switches y hosts descritos en YAML. Es ideal para docencia: cada alumno despliega el mismo laboratorio en dos minutos, y el agente puede verificar con pings y devolverte los resultados." },
+    { "id": 6, "title": "Ansible idempotente", "text": "Un playbook de Ansible debe ser idempotente: ejecutarlo dos veces no cambia nada la segunda. Inventario separado del playbook, secretos con vault y siempre una prueba con check antes de aplicar nada real." },
+    { "id": 7, "title": "El flujo IaC con copiloto", "text": "El flujo es el mismo que con el código: declarar el estado deseado, dejar que el agente genere los ficheros, revisar el diff con plan o check, aplicar bajo supervisión y versionar el resultado. El commit describe la infraestructura, no los cambios manuales." },
+    { "id": 8, "title": "Riesgos IaC", "text": "Cinco riesgos reales: que la IA ejecute un apply solo a ella, secretos en ficheros versionados, drift cuando alguien toca la consola a mano, alucinaciones de parámetros de API y costes por accidentes. La regla del proyecto: nada que cueste dinero se ejecuta sin diff y un humano revisando." },
+    { "id": 9, "title": "Reto del curso", "text": "Tu mini-reto: con el copiloto, diseña un laboratorio con compose para tu asignatura y una topología de Containerlab con dos routers. Arranca con el prompt que propone un plan antes de escribir ficheros." },
+    { "id": 10, "title": "Resumen", "text": "Infraestructura como código es infraestructura versionada: la descripción vive en el repositorio y el diff se revisa antes de aplicar. La IA genera y verifica; el apply lo aprueba un humano. Última parte: documentación como código." }
+  ]
+}

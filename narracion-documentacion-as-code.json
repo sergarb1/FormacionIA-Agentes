@@ -1,0 +1,17 @@
+{
+  "_voice": "es-ES-AlvaroNeural",
+  "_note": "Narración de 'Documentación como código · Parte 8'",
+  "slides": [
+    { "id": 0, "title": "Portada", "text": "Parte ocho y cierre de la serie: documentación como código, cómo mantener la documentación viva dentro del repositorio, con diagramas versionados y el agente como aliado." },
+    { "id": 1, "title": "Porque la doc de Word muere", "text": "La documentación en Word o en presentaciones muere en unos pdf versión tres final: se desactualiza, no tiene diffs y nadie la encuentra. Documentación como código es Markdown en el repositorio, con pull requests, diff y blame, igual que el resto del proyecto." },
+    { "id": 2, "title": "Estructura de referencias", "text": "Una estructura mínima y útil: README para la primera lectura, arquitectura para las decisiones, api para los endpoints, runbook para operar y un ADR por cada decisión importante. Y una regla: si el agente te pregunta dos veces lo mismo, es que falta en el repositorio." },
+    { "id": 3, "title": "Mermaid", "text": "Mermaid convierte texto en diagramas: se versiona línea a línea, GitHub lo renderiza al abrir el fichero y el agente puede deducir el flujo real del código y regenerarlo cuando cambia." },
+    { "id": 4, "title": "Excalidraw", "text": "Para bocetos libres, Excalidraw guarda el dibujo en un fichero JSON que también se puede versionar, exportando a SVG o PNG para publicar. Detalle técnico en Mermaid, boceto didáctico en Excalidraw: ambos en el repositorio." },
+    { "id": 5, "title": "ADR", "text": "Un ADR documenta una decisión: contexto, opciones evaluadas, qué elegimos, por qué y consecuencias. El por qué queda escrito y no vuelve a discutirse cada seis meses, y cualquier agente nuevo entra con ese contexto." },
+    { "id": 6, "title": "La doc en el pipeline", "text": "La documentación entra en el mismo flujo que el código: se actualiza en el mismo pull request, se revisa igual, se renderiza con MkDocs o Docusaurus y se publica en GitHub Pages. Si un enlace se rompe, el pipeline se pone rojo." },
+    { "id": 7, "title": "Doc de API generada", "text": "La documentación de la API se genera desde el código real: tabla de endpoints, ejemplos de curl ejecutables y regeneración con diff en el pull request cuando cambia algo. La consistencia viene de usar siempre la misma plantilla." },
+    { "id": 8, "title": "Errores típicos", "text": "Errores típicos: insistir en una documentación perfecta de la primera versión, mantener doble documentación, diagramas que envejecen, secretos en los ejemplos y copiar del agente sin revisar. La regla: la documentación que nadie lee tampoco existe." },
+    { "id": 9, "title": "Reto", "text": "El mini-reto final: documenta tu proyecto con README, arquitectura con un diagrama Mermaid y dos ADR revisados por el copiloto. Empieza pidiendo una propuesta de estructura antes de escribir." },
+    { "id": 10, "title": "Resumen", "text": "Y cierre de la serie: la documentación versionada evoluciona con el código y alimenta al agente, que a su vez ayuda a mantenerla. Tú pilotas, la IA acelera: revisa, entrena tu criterio y comparte lo que aprendas. Gracias." }
+  ]
+}

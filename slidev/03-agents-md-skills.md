@@ -329,6 +329,38 @@ no lo improvises."</code></pre>
 
 <audio class="deck-audio" src="../audio-agents-md-skills/slide11.mp3"></audio>
 
+<h2>🤝 Handoff: pasar la pelota a otro agente</h2>
+<p class="sm">Del inglés <em>hand off</em> ("soltar la mano"): el agente principal delega una subtarea en un <strong>subagente</strong> y recibe de vuelta el resultado.</p>
+<div class="g2" style="margin-top:.3em;">
+  <div>
+    <div class="card blue" style="margin-bottom:.3em;">
+      <p>💬 <strong>Cómo se pide</strong></p>
+      <pre style="font-size:.5em;margin:.1em 0;border-left-color:#3b82f6;"><code>"Delega en un subagente: escribe y
+ejecuta los tests de la feature y
+hazlos pasar. Yo solo quiero un
+resumen y el listado de fallos."</code></pre>
+    </div>
+    <div class="card amber" style="margin-bottom:0;">
+      <p>🧭 <strong>Cómo funciona</strong></p>
+      <p class="sm">Tú → agente principal → subagente (contexto limpio + instrucciones del traspaso). El subagente también lee el AGENTS.md y los skills del repo, y devuelve un resumen al principal.</p>
+    </div>
+  </div>
+  <div>
+    <div class="card green" style="margin-bottom:.3em;">
+      <p>✅ <strong>Cuándo conviene</strong></p>
+      <p class="sm">Subtareas grandes y autocontenidas: batería de tests, revisión de código, migración, redacción de docs. El subagente no arrastra el ruido del plan principal.</p>
+    </div>
+    <div class="card red" style="margin-bottom:0;">
+      <p>⚠️ <strong>Recuerda</strong></p>
+      <p class="sm">Delegar no elimina la responsabilidad: revisa el resultado como si lo hubieras hecho tú. Y el handoff no sustituye a la fase PLAN.</p>
+    </div>
+  </div>
+</div>
+
+---
+
+<audio class="deck-audio" src="../audio-agents-md-skills/slide12.mp3"></audio>
+
 <h2>🌱 Empezar con el AGENTS.md live</h2>
 <p class="sm">No lo escribas de teoría: déjalo que lo construya con tu ayuda en la primera semana.</p>
 <div class="g2">
@@ -355,7 +387,7 @@ Y borra la regla repetida."</code></pre>
 
 ---
 
-<audio class="deck-audio" src="../audio-agents-md-skills/slide12.mp3"></audio>
+<audio class="deck-audio" src="../audio-agents-md-skills/slide13.mp3"></audio>
 
 <h2>✨ En esta parte 3</h2>
 <div class="g2" style="font-size:.8em;">

@@ -18,6 +18,8 @@ const DECKS = [
   { entry: '04-ejemplos-desarrollo.md',  slug: '04-ejemplos-desarrollo',  pdf: '04-ejemplos-desarrollo.pdf' },
   { entry: '05-plugins-mcp.md',          slug: '05-plugins-mcp',          pdf: '05-plugins-mcp.pdf' },
   { entry: '06-devops-agentes.md',       slug: '06-devops-agentes',       pdf: '06-devops-agentes.pdf' },
+  { entry: '07-infra-as-code.md',          slug: '07-infra-as-code',          pdf: '07-infra-as-code.pdf' },
+  { entry: '08-documentacion-as-code.md', slug: '08-documentacion-as-code', pdf: '08-documentacion-as-code.pdf' },
 ]
 
 function run(args) {

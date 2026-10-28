@@ -24,7 +24,7 @@ mantener las presentaciones de este repo con **OpenCode + Freebuff**
 FormacionIA-Agentes/
 ├── slidev/                     # Proyecto Slidev (npm)
 │   ├── package.json            # Scripts: build, build:pdf, pdf
-│   ├── build-todos.mjs         # Compila/exporta los 6 decks (base abs. de Pages)
+│   ├── build-todos.mjs         # Compila/exporta los 8 decks (base abs. de Pages)
 │   ├── styles/index.css        # Estilos compartidos (todos los decks)
 │   ├── global-bottom.vue       # Botón 🔊 audio narrado + reproductor
 │   ├── 0N-<tema>.md            # Un archivo Markdown por deck
@@ -92,7 +92,7 @@ exportFilename: <slug-del-pdf>
 
 ```bash
 cd slidev
-node build-todos.mjs build          # HTML de los 6 decks (base absoluta de Pages)
+node build-todos.mjs build          # HTML de los 8 decks (base absoluta de Pages)
 node build-todos.mjs pdf            # solo PDFs (usa Chrome del sistema si existe)
 node build-todos.mjs build pdf      # los dos pasos
 ```

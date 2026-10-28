@@ -2,18 +2,75 @@
   "_voice": "es-ES-AlvaroNeural",
   "_note": "Narración de 'AGENTS.md y Skills · Parte 3'",
   "slides": [
-    { "id": 0, "title": "Portada", "text": "Tercera parte de la serie: AGENTS.md y skills, cómo enseñar a tu agente a trabajar como tú." },
-    { "id": 1, "title": "El agente no lee la mente", "text": "Sin contexto, el agente repite preguntas, ignora convenciones y hace lo que quiere en cada sesión. Con contexto, ya sabe el stack, la estructura, los tests y qué no tocar. La solución es poner ese conocimiento en ficheros que el agente lee." },
-    { "id": 2, "title": "AGENTS.md", "text": "AGENTS.md es el manual del proyecto, en la raíz del repositorio. Los principales agentes lo leen automáticamente al arrancar. Contiene stack, comandos, convenciones, cómo se testea y qué no tocar. Es un estándar de facto compartido por varios agentes." },
-    { "id": 3, "title": "Estructura recomendada", "text": "La estructura recomendada: qué es el proyecto, comandos, convenciones y una sección de no tocar. Corto y accionable: un AGENTS.md de doscientas líneas nadie lo lee, ni humano ni IA." },
-    { "id": 4, "title": "Qué escribir", "text": "Reglas accionables, los comandos exactos y un ejemplo corto valen más que párrafos de teoría. Y cuando el agente haga algo que no te gustó, añade la regla que faltaba en lugar de solo corregir." },
-    { "id": 5, "title": "Skills", "text": "Un skill enseña a hacer bien un tipo concreto de tarea: un tutorial de CRUD para tu stack, una receta de tests, una plantilla de documentación. Es Markdown con instrucciones y ejemplos, y el agente lo consulta cuando aplica." },
-    { "id": 6, "title": "Skills de la comunidad", "text": "Hay skills de la comunidad que se buscan e instalan con npx skills, y quedan en la carpeta .agents skills del repositorio. Revísalos antes de instalar, igual que cualquier dependencia." },
-    { "id": 7, "title": "Tu propio skill", "text": "Crear un skill propio es escribir un archivo con nombre y descripción en la cabecera, reglas concretas y una lista de verificación. La clave es la descripción: así el agente decide cuándo cargarlo." },
-    { "id": 8, "title": "AGENTS.md vs skill", "text": "Regla rápida: si es sobre este repositorio, va a AGENTS.md. Si es sobre cómo se hace una tarea X, es un skill, reutilizable copiando entre proyectos." },
-    { "id": 9, "title": "Skill en acción", "text": "Con el skill de CRUD cargado, pedir una entidad nueva da resultados consistentes: mismos nombres, mismos paquetes, mismos patrones de test. Esa consistencia es lo que comparte el equipo." },
-    { "id": 10, "title": "Contexto extra", "text": "Todo lo que escribiste para un humano sirve para el copiloto: README, carpeta de docs, TODOs bien escritos y una historia de Git con mensajes claros. Buena documentación, mejor IA." },
-    { "id": 11, "title": "Empezar en vivo", "text": "No escribas el AGENTS.md de memoria: pídele al agente que genere un borrador al explorar, y vete añadiendo las reglas que aprendes cada semana. Vive el fichero, se versiona y se revisa en PR." },
-    { "id": 12, "title": "Resumen", "text": "AGENTS.md es el manual del proyecto, corto y accionable. Skills son recetas por tipo de tarea, instalables o propias. Siguiente: ejemplos de desarrollo con código, configuraciones y scripts reales." }
+    {
+      "id": 0,
+      "title": "Portada",
+      "text": "Tercera parte de la serie: AGENTS.md y skills, cómo enseñar a tu agente a trabajar como tú."
+    },
+    {
+      "id": 1,
+      "title": "El agente no lee la mente",
+      "text": "Sin contexto, el agente repite preguntas, ignora convenciones y hace lo que quiere en cada sesión. Con contexto, ya sabe el stack, la estructura, los tests y qué no tocar. La solución es poner ese conocimiento en ficheros que el agente lee."
+    },
+    {
+      "id": 2,
+      "title": "AGENTS.md",
+      "text": "AGENTS.md es el manual del proyecto, en la raíz del repositorio. Los principales agentes lo leen automáticamente al arrancar. Contiene stack, comandos, convenciones, cómo se testea y qué no tocar. Es un estándar de facto compartido por varios agentes."
+    },
+    {
+      "id": 3,
+      "title": "Estructura recomendada",
+      "text": "La estructura recomendada: qué es el proyecto, comandos, convenciones y una sección de no tocar. Corto y accionable: un AGENTS.md de doscientas líneas nadie lo lee, ni humano ni IA."
+    },
+    {
+      "id": 4,
+      "title": "Qué escribir",
+      "text": "Reglas accionables, los comandos exactos y un ejemplo corto valen más que párrafos de teoría. Y cuando el agente haga algo que no te gustó, añade la regla que faltaba en lugar de solo corregir."
+    },
+    {
+      "id": 5,
+      "title": "Skills",
+      "text": "Un skill enseña a hacer bien un tipo concreto de tarea: un tutorial de CRUD para tu stack, una receta de tests, una plantilla de documentación. Es Markdown con instrucciones y ejemplos, y el agente lo consulta cuando aplica."
+    },
+    {
+      "id": 6,
+      "title": "Skills de la comunidad",
+      "text": "Hay skills de la comunidad que se buscan e instalan con npx skills, y quedan en la carpeta .agents skills del repositorio. Revísalos antes de instalar, igual que cualquier dependencia."
+    },
+    {
+      "id": 7,
+      "title": "Tu propio skill",
+      "text": "Crear un skill propio es escribir un archivo con nombre y descripción en la cabecera, reglas concretas y una lista de verificación. La clave es la descripción: así el agente decide cuándo cargarlo."
+    },
+    {
+      "id": 8,
+      "title": "AGENTS.md vs skill",
+      "text": "Regla rápida: si es sobre este repositorio, va a AGENTS.md. Si es sobre cómo se hace una tarea X, es un skill, reutilizable copiando entre proyectos."
+    },
+    {
+      "id": 9,
+      "title": "Skill en acción",
+      "text": "Con el skill de CRUD cargado, pedir una entidad nueva da resultados consistentes: mismos nombres, mismos paquetes, mismos patrones de test. Esa consistencia es lo que comparte el equipo."
+    },
+    {
+      "id": 10,
+      "title": "Contexto extra",
+      "text": "Todo lo que escribiste para un humano sirve para el copiloto: README, carpeta de docs, TODOs bien escritos y una historia de Git con mensajes claros. Buena documentación, mejor IA."
+    },
+    {
+      "id": 11,
+      "title": "Handoff",
+      "text": "El handoff es el traspaso de una tarea de un agente a otro. El agente principal reparte el trabajo en subtareas y las entrega a subagentes especializados, que parten con contexto limpio y devuelven un resumen compacto. Conviene para subtareas grandes y autocontenidas, como una bateria de tests o una revision. Y no olvides que delegar no elimina la responsabilidad: revisa el resultado como si lo hubieras hecho tu."
+    },
+    {
+      "id": 12,
+      "title": "Empezar en vivo",
+      "text": "No escribas el AGENTS.md de memoria: pídele al agente que genere un borrador al explorar, y vete añadiendo las reglas que aprendes cada semana. Vive el fichero, se versiona y se revisa en PR."
+    },
+    {
+      "id": 13,
+      "title": "Resumen",
+      "text": "AGENTS.md es el manual del proyecto, corto y accionable. Skills son recetas por tipo de tarea, instalables o propias. Siguiente: ejemplos de desarrollo con código, configuraciones y scripts reales."
+    }
   ]
 }

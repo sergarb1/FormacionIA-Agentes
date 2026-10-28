@@ -1,0 +1,8 @@
+import{L as e,T as t,Y as n,_ as r,b as i,g as a,gt as o,mt as s}from"./modules/shiki-CTmrkNOW.js";import{et as c,tt as l}from"./index-Dj2dNjN6.js";import{t as u}from"./slidev/default-Dmv_P9dy.js";var d={__name:`07-infra-as-code.md__slidev_6`,setup(d){let{$slidev:f,$nav:p,$clicksContext:m,$clicks:h,$page:g,$renderContext:_,$frontmatter:v}=l();return m.setup(),(l,d)=>(e(),r(u,o(t(s(c)(s(v),5))),{default:n(()=>[...d[0]||=[a(`p`,null,[a(`audio`,{class:`deck-audio`,src:`../audio-infra-as-code/slide05.mp3`})],-1),a(`h2`,null,`🧪 Ejemplo 3 · Containerlab: topología de red`,-1),a(`div`,{class:`g2`,style:{gap:`1.2em`}},[a(`div`,{class:`pc`,style:{margin:`0`}},[a(`div`,{class:`pl`},`💬 Prompt`),a(`pre`,{style:{"font-size":`.5em`,"border-left-color":`#14b8a6`}},[a(`code`,null,`"Genera clab/demo.yml: 2 routers
+(ceos) + 2 hosts. R1 conecta con
+host1 y R2 con host2; link
+R1-R2 en 10.0.0.0/30.
+Encapsula la topología con:
+- Addressing (loopbacks, mgmt)
+- Arranque con clab deploy y
+  pruebas: ping host1-host2"`)]),a(`div`,{class:`ftr`},[a(`span`,{class:`tb op`},`OpenCode`),i(` · Containerlab`)])]),a(`div`,{class:`exp`},[a(`div`,{class:`pl`},`✅ Ideal para docencia`),a(`ul`,{class:`exp-list`},[a(`li`,null,[a(`strong`,null,`Teaching labs`),i(`: cada alumno despliega la misma topología en 2 min`)]),a(`li`,null,[i(`El agente puede `),a(`strong`,null,`verificar`),i(`: ping entre nodos y devuelve capturas del output`)]),a(`li`,null,[i(`Topología en `),a(`strong`,null,`YAML`),i(`: diff en PR igual que el resto del repo`)]),a(`li`,null,`Alternativa ligera a laboratorios físicos o GNS3 pesado`)])])],-1)]]),_:1},16))}};export{d as default};
