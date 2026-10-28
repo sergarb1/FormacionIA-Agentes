@@ -102,7 +102,8 @@ Gestor de citas para clínicas. Single-user demo.
 ## Convenciones
 - TypeScript estricto; sin <code>any</code>
 - Componentes en PascalCase, hooks en camelCase
-- Commits: Conventional Commits, en español- Comentarios del código en español
+- Commits: Conventional Commits, en español
+- Comentarios del código en español
 &nbsp;
 ## No tocar
 - src/lib/legacy/ (código antiguo, solo parches)
@@ -359,12 +360,12 @@ Y borra la regla repetida."</code></pre>
 <h2>✨ En esta parte 3</h2>
 <div class="g2" style="font-size:.8em;">
   <div class="card" style="text-align:center;border-top:4px solid #8b5cf6;">
-    <p style="font-size:1.5em;margin:0;">📁</p>
+    <p style="font-size:1.5em;line-height:1.15;margin:.05em 0 .12em;">📁</p>
     <p><strong>AGENTS.md</strong></p>
     <p class="sm">El manual del proyecto, leído en cada sesión · corto · accionable · versionado en Git</p>
   </div>
   <div class="card" style="text-align:center;border-top:4px solid #10b981;">
-    <p style="font-size:1.5em;margin:0;">🎨</p>
+    <p style="font-size:1.5em;line-height:1.15;margin:.05em 0 .12em;">🎨</p>
     <p><strong>Skills</strong></p>
     <p class="sm">Recetas por tipo de tarea · instalables de la comunidad · propios en <code>.agents/skills/</code></p>
   </div>

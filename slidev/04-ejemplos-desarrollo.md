@@ -348,22 +348,22 @@ en /health."</code></pre>
 <h2>✨ En esta parte 4</h2>
 <div class="g2" style="font-size:.8em;">
   <div class="card" style="text-align:center;border-top:4px solid #3b82f6;">
-    <p style="font-size:1.5em;margin:0;">🖥️</p>
+    <p style="font-size:1.5em;line-height:1.15;margin:.05em 0 .12em;">🖥️</p>
     <p><strong>Código</strong></p>
     <p class="sm">Componentes · CRUDs · modelos · pantallas — anclados a tu repo y estilo</p>
   </div>
   <div class="card" style="text-align:center;border-top:4px solid #14b8a6;">
-    <p style="font-size:1.5em;margin:0;">🗄️</p>
+    <p style="font-size:1.5em;line-height:1.15;margin:.05em 0 .12em;">🗄️</p>
     <p><strong>Datos</strong></p>
     <p class="sm">Migraciones, modelos relacionales, seeds realistas — integridad pedida de fábrica</p>
   </div>
   <div class="card" style="text-align:center;border-top:4px solid #f59e0b;">
-    <p style="font-size:1.5em;margin:0;">🧪</p>
+    <p style="font-size:1.5em;line-height:1.15;margin:.05em 0 .12em;">🧪</p>
     <p><strong>Calidad</strong></p>
     <p class="sm">Tests de caracterización · refactors con red de seguridad · depuración por root cause</p>
   </div>
   <div class="card" style="text-align:center;border-top:4px solid #ea580c;">
-    <p style="font-size:1.5em;margin:0;">⚙️</p>
+    <p style="font-size:1.5em;line-height:1.15;margin:.05em 0 .12em;">⚙️</p>
     <p><strong>Configuración</strong></p>
     <p class="sm">Dockerfile · compose · .env.example — la infra también es código</p>
   </div>

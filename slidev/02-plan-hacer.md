@@ -325,12 +325,12 @@ al terminar cada paso."</code></pre>
 <h2>✨ En esta parte 2</h2>
 <div class="g2" style="font-size:.8em;">
   <div class="card" style="text-align:center;border-top:4px solid #3b82f6;">
-    <p style="font-size:1.5em;margin:0;">🗺️</p>
+    <p style="font-size:1.5em;line-height:1.15;margin:.05em 0 .12em;">🗺️</p>
     <p><strong>PLAN</strong></p>
     <p class="sm">Explorar · opciones · requisitos con criterios · plan de pasos aprobado — sin tocar código</p>
   </div>
   <div class="card" style="text-align:center;border-top:4px solid #10b981;">
-    <p style="font-size:1.5em;margin:0;">🏗️</p>
+    <p style="font-size:1.5em;line-height:1.15;margin:.05em 0 .12em;">🏗️</p>
     <p><strong>HACER</strong></p>
     <p class="sm">Un paso por iteración · verificar · commit limpio · iterar — con frenos de emergencia</p>
   </div>

@@ -357,12 +357,12 @@ opencode plugins install review-pack</code></pre>
 <h2>✨ En esta parte 5</h2>
 <div class="g2" style="font-size:.8em;">
   <div class="card" style="text-align:center;border-top:4px solid #5b21b6;">
-    <p style="font-size:1.5em;margin:0;">🔗</p>
+    <p style="font-size:1.5em;line-height:1.15;margin:.05em 0 .12em;">🔗</p>
     <p><strong>MCPs</strong></p>
     <p class="sm">Herramientas estándar: GitHub · BD (readonly) · navegador · docs — mismo estándar para todos los agentes</p>
   </div>
   <div class="card" style="text-align:center;border-top:4px solid #10b981;">
-    <p style="font-size:1.5em;margin:0;">📦</p>
+    <p style="font-size:1.5em;line-height:1.15;margin:.05em 0 .12em;">📦</p>
     <p><strong>Plugins</strong></p>
     <p class="sm">Paquetes con skills + comandos + MCPs, para flujos repetidos de equipo</p>
   </div>

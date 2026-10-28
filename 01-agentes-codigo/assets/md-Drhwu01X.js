@@ -1,0 +1,9 @@
+import{L as e,T as t,Y as n,_ as r,b as i,g as a,gt as o,mt as s}from"./modules/shiki-CTmrkNOW.js";import{et as c,tt as l}from"./index-D8mlK14B.js";import{t as u}from"./slidev/default-DTlRR63n.js";var d={__name:`01-agentes-codigo.md__slidev_12`,setup(d){let{$slidev:f,$nav:p,$clicksContext:m,$clicks:h,$page:g,$renderContext:_,$frontmatter:v}=l();return m.setup(),(l,d)=>(e(),r(u,o(t(s(c)(s(v),11))),{default:n(()=>[...d[0]||=[a(`p`,null,[a(`audio`,{class:`deck-audio`,src:`../audio-agentes-codigo/slide11.mp3`})],-1),a(`h2`,null,`🗣️ Así se habla a un agente`,-1),a(`div`,{class:`g2`},[a(`div`,null,[a(`div`,{class:`card`,style:{"border-left":`3px solid #dc2626`,"margin-bottom":`.4em`}},[a(`p`,null,[i(`❌ `),a(`strong`,null,`Vago`)]),a(`p`,{class:`sm`},`"Hazme una web de pelis"`),a(`p`,{class:`sm`},`→ Adivina estilo, tecnologías y alcance. Resultado aleatorio.`)]),a(`div`,{class:`card`,style:{"border-left":`3px solid #f59e0b`,"margin-bottom":`.4em`}},[a(`p`,null,[i(`⚠️ `),a(`strong`,null,`Mejorable`)]),a(`p`,{class:`sm`},`"Una web HTML de pelis con CSS bonito"`),a(`p`,{class:`sm`},`→ Mejor, pero falta el contenido y el comportamiento.`)])]),a(`div`,null,[a(`div`,{class:`card`,style:{"border-left":`3px solid #10b981`}},[a(`p`,null,[i(`✅ `),a(`strong`,null,`Buen prompt`)]),a(`pre`,{style:{"font-size":`.5em`,margin:`.15em 0`}},[a(`code`,null,`"Web HTML+CSS+JS puro, single-page:
+\xA0
+- Catálogo de 12 películas con carátula,
+  título, año y valoración
+- Filtro por género y búsqueda por título
+- Ficha al pulsar con sinopsis y tráiler
+  (YouTube embebido)
+- Datos en un array JS, sin backend
+- Diseño oscuro tipo cine, responsive"`)])])])],-1),a(`div`,{class:`tip`},[i(`🎯 Regla: `),a(`strong`,null,`qué`),i(` + `),a(`strong`,null,`cómo`),i(` (tecnología) + `),a(`strong`,null,`restricciones`),i(` (datos, móvil, offline) + `),a(`strong`,null,`criterios de éxito`),i(`.`)],-1)]]),_:1},16))}};export{d as default};

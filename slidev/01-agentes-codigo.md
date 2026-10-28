@@ -141,17 +141,20 @@ exportFilename: agentes-codigo
 <audio class="deck-audio" src="../audio-agentes-codigo/slide05.mp3"></audio>
 
 <h2>🔍 Comparativa rápida de agentes</h2>
-<pre style="font-size:.42em;"><code>╔══════════════════╦══════════════╦══════════════╦══════════════╦══════════════╦══════════════╗
-║                  ║   OpenCode   ║   Freebuff   ║ Claude Code  ║    Codex     ║ Antigravity  ║
-╠══════════════════╬══════════════╬══════════════╬══════════════╬══════════════╬══════════════╣
-║ Qué es           ║ Agente CLI   ║ Agente web   ║ Agente CLI   ║ Agente CLI   ║ IDE agént.   ║
-║ Open source      ║      ✅      ║      ❌      ║      ❌      ║      ✅      ║      ❌      ║
-║ Gratis           ║      ✅      ║ Capa gratis  ║  Capa gratis ║  Capa gratis ║  Capa gratis ║
-║ Skills           ║      ✅      ║      ❌      ║      ✅      ║      ❌      ║      ✅      ║
-║ AGENTS.md        ║      ✅      ║      ❌      ║      ✅      ║      ✅      ║      ✅      ║
-║ Servidores MCP   ║      ✅      ║      ❌      ║      ✅      ║      ✅      ║      ✅      ║
-║ Subir archivos   ║      ✅      ║      ✅      ║      ✅      ║      ✅      ║      ✅      ║
-╚══════════════════╩══════════════╩══════════════╩══════════════╩══════════════╩══════════════╝</code></pre>
+<table class="tbl" style="font-size:.55em;">
+  <thead>
+    <tr><th style="width:26%;"></th><th>OpenCode</th><th>Freebuff</th><th>Claude Code</th><th>Codex</th><th>Antigravity</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Qué es</strong></td><td>Agente CLI</td><td>Agente web</td><td>Agente CLI</td><td>Agente CLI</td><td>IDE agént.</td></tr>
+    <tr><td><strong>Open source</strong></td><td>✅</td><td>❌</td><td>❌</td><td>✅</td><td>❌</td></tr>
+    <tr><td><strong>Gratis</strong></td><td>✅</td><td>Capa gratis</td><td>Capa gratis</td><td>Capa gratis</td><td>Capa gratis</td></tr>
+    <tr><td><strong>Skills</strong></td><td>✅</td><td>❌</td><td>✅</td><td>❌</td><td>✅</td></tr>
+    <tr><td><strong>AGENTS.md</strong></td><td>✅</td><td>❌</td><td>✅</td><td>✅</td><td>✅</td></tr>
+    <tr><td><strong>Servidores MCP</strong></td><td>✅</td><td>❌</td><td>✅</td><td>✅</td><td>✅</td></tr>
+    <tr><td><strong>Subir archivos</strong></td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+  </tbody>
+</table>
 <p class="sm" style="text-align:center;">Para aprender y trabajar sin costar dinero: <strong>OpenCode</strong> en la terminal + <strong>Freebuff</strong> en el navegador.</p>
 
 ---
@@ -423,12 +426,12 @@ mover nada."</code></pre>
 <h2>✨ En esta parte 1</h2>
 <div class="g2" style="font-size:.8em;">
   <div class="card" style="text-align:center;border-top:4px solid #10b981;">
-    <p style="font-size:1.5em;margin:0;">🤖</p>
+    <p style="font-size:1.5em;line-height:1.15;margin:.05em 0 .12em;">🤖</p>
     <p><strong>Un agente es un LLM con manos</strong></p>
     <p class="sm">Lee proyecto · edita ficheros · ejecuta comandos · itera hasta funcionar</p>
   </div>
   <div class="card" style="text-align:center;border-top:4px solid #3b82f6;">
-    <p style="font-size:1.5em;margin:0;">🧰</p>
+    <p style="font-size:1.5em;line-height:1.15;margin:.05em 0 .12em;">🧰</p>
     <p><strong>Las herramientas</strong></p>
     <p class="sm">OpenCode (gratuito, recomendado) + Freebuff (navegador) · Claude Code · Codex · Antigravity</p>
   </div>

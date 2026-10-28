@@ -1,0 +1,7 @@
+import{L as e,T as t,Y as n,_ as r,b as i,g as a,gt as o,mt as s}from"./modules/shiki-CTmrkNOW.js";import{et as c,tt as l}from"./index-DNB_OgL5.js";import{t as u}from"./slidev/default-Bc7AQvUq.js";var d={__name:`03-agents-md-skills.md__slidev_12`,setup(d){let{$slidev:f,$nav:p,$clicksContext:m,$clicks:h,$page:g,$renderContext:_,$frontmatter:v}=l();return m.setup(),(l,d)=>(e(),r(u,o(t(s(c)(s(v),11))),{default:n(()=>[...d[0]||=[a(`p`,null,[a(`audio`,{class:`deck-audio`,src:`../audio-agents-md-skills/slide11.mp3`})],-1),a(`h2`,null,`🌱 Empezar con el AGENTS.md live`,-1),a(`p`,{class:`sm`},`No lo escribas de teoría: déjalo que lo construya con tu ayuda en la primera semana.`,-1),a(`div`,{class:`g2`},[a(`div`,null,[a(`div`,{class:`card`,style:{"margin-bottom":`.3em`}},[a(`p`,null,[i(`🚀 `),a(`strong`,null,`Día 1`)]),a(`pre`,{style:{"font-size":`.5em`,margin:`.1em 0`}},[a(`code`,null,`"Genera un primer AGENTS.md del
+proyecto con lo que has aprendido
+al explorar: stack, comandos y
+estructura. Que quede corto."`)])])]),a(`div`,null,[a(`div`,{class:`card`,style:{"margin-bottom":`.3em`}},[a(`p`,null,[i(`🧩 `),a(`strong`,null,`Cada semana`)]),a(`pre`,{style:{"font-size":`.5em`,margin:`.1em 0`}},[a(`code`,null,`"Añade a AGENTS.md la regla de
+que los formularios validan con
+zod y no con su propio código.
+Y borra la regla repetida."`)])])])],-1),a(`div`,{class:`tip`},`🎯 El AGENTS.md es código: se versiona, se revisa en PR y se discute. Cuando alguien corrija al agente por algo que ya sabía el equipo… regla nueva al fichero.`,-1)]]),_:1},16))}};export{d as default};
