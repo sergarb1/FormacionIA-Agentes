@@ -13,7 +13,7 @@ exportFilename: devops-agentes
 <audio class="deck-audio" src="../audio-devops-agentes/slide00.mp3"></audio>
 
 <h2 style="font-size:2em;text-align:center;">🚀 Desarrollo y Operaciones<br>con agentes de IA</h2>
-<h3 style="text-align:center;">Codificar con agentes · Parte 6 · Octubre 2026</h3>
+<h3 style="text-align:center;">IA como Copiloto · Parte 8 de 8</h3>
 <p style="text-align:center;margin-top:1.2em;">👤 Sergi Garcia Barea</p>
 <div style="text-align:center;margin-top:.4em;">
   <span style="display:inline-block;background:#f1f5f9;padding:4px 14px;border-radius:6px;font-size:.5em;">
@@ -336,7 +336,13 @@ Report con severidad y parche
     <p class="sm"><strong>5 · Plugins y MCPs</strong> — GitHub, BD readonly y navegador: el agente conectado, con permisos justos</p>
   </div>
   <div class="card" style="border-top:4px solid #ea580c;">
-    <p class="sm"><strong>6 · Dev + Ops</strong> — Docker, CI/CD, scripts de despliegue, observabilidad y uso responsable</p>
+    <p class="sm"><strong>6 · Documentación como código</strong> — Markdown, Mermaid, Excalidraw y ADRs versionados con el código</p>
+  </div>
+  <div class="card" style="border-top:4px solid #ea580c;">
+    <p class="sm"><strong>7 · Infraestructura como código</strong> — Docker Compose, Terraform, Containerlab y Ansible generados y revisados</p>
+  </div>
+  <div class="card" style="border-top:4px solid #ea580c;">
+    <p class="sm"><strong>8 · Dev + Ops</strong> — Docker, CI/CD, scripts de despliegue, observabilidad y uso responsable</p>
   </div>
 </div>
 <div class="tip" style="margin-top:.5em;">🎯 IA como copiloto de desarrollo y operaciones: <strong>tú pilotas, la IA acelera</strong> — y siempre revisa.</div>

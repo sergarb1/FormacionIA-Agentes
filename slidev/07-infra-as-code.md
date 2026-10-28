@@ -249,5 +249,5 @@ escribas ficheros aún."</code></pre>
     <p class="sm">La IA genera y verifica, pero el apply lo aprueba un humano; secretos y costes siempre bajo control</p>
   </div>
 </div>
-<p class="sm" style="text-align:center;margin-top:.5em;">Última: <strong>Documentación como código</strong> — diagramas y docs que evolucionan con el código. 🚀</p>
+<p class="sm" style="text-align:center;margin-top:.5em;">Siguiente: <strong>Desarrollo y Operaciones con agentes</strong> — el ciclo completo, de dev a ops. 🚀</p>
 <p style="text-align:center;font-size:.45em;color:#94a3b8;margin-top:.4em;">CC BY-SA 4.0 · Sergi Garcia Barea · Octubre 2026</p>

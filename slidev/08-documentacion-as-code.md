@@ -13,7 +13,7 @@ exportFilename: documentacion-as-code
 <audio class="deck-audio" src="../audio-documentacion-as-code/slide00.mp3"></audio>
 
 <h1 style="text-align:center;font-size:1.8em;">📐 Documentación como código</h1>
-<h3 style="text-align:center;">IA como Copiloto · Parte 8 de 8</h3>
+<h3 style="text-align:center;">IA como Copiloto · Parte 6 de 8</h3>
 <p style="text-align:center;margin-top:.5em;" class="sm"><button class="credit">🌳 Nivel: avanzado · 📝 Markdown · 📊 Mermaid · 🎨 Excalidraw · 🥅 Docs en el pipeline</button></p>
 <p style="text-align:center;margin-top:.3em;" class="sm"><strong>Sergi Garcia Barea</strong> · Octubre 2026 · CC BY-SA 4.0</p>
 
@@ -224,7 +224,7 @@ decisión importante."</code></pre>
 
 <audio class="deck-audio" src="../audio-documentacion-as-code/slide10.mp3"></audio>
 
-<h2>✨ En esta parte 8 · cierre de la serie</h2>
+<h2>✨ En esta parte 6</h2>
 <div class="g2" style="font-size:.8em;">
   <div class="card" style="text-align:center;border-top:4px solid #8b5cf6;">
     <p style="font-size:1.5em;line-height:1.15;margin:.05em 0 .12em;">📝</p>
@@ -239,7 +239,7 @@ decisión importante."</code></pre>
 </div>
 <div class="g2" style="margin-top:.5em;">
   <div class="card" style="border-top:3px solid #ea580c;">
-    <p class="sm">🗓️ <strong>Serie completa</strong>: agentes de código · Plan → Hacer · AGENTS.md y skills · ejemplos de desarrollo · plugins y MCPs · infraestructura como código · documentación como código</p>
+    <p class="sm">🗓️ <strong>Serie completa</strong>: agentes de código · Plan → Hacer · AGENTS.md y skills · ejemplos de desarrollo · plugins y MCPs · documentación como código · infraestructura como código</p>
   </div>
   <div class="card" style="border-top:3px solid #10b981;">
     <p class="sm">🎯 <strong>Tú pilotas, la IA acelera</strong>: revisa, entrena tu criterio y comparte lo que aprendas. 🚀</p>

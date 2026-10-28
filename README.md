@@ -17,9 +17,9 @@
 | 3 | [👉 AGENTS.md y skills 👈](https://sergarb1.github.io/FormacionIA-Agentes/03-agents-md-skills/) | 🌿 Intermedio | 14 | El manual del proyecto (`AGENTS.md`), skills propios y de la comunidad (`npx skills`), qué es el *handoff* a subagentes y el contexto extra que el agente lee |
 | 4 | [👉 Ejemplos de desarrollo 👈](https://sergarb1.github.io/FormacionIA-Agentes/04-ejemplos-desarrollo/) | 🌳 Avanzado | 11 | 8 ejemplos con prompt completo: frontend con validación, API REST, migraciones de BD, tests de caracterización, refactor seguro, depuración, docs y Docker |
 | 5 | [👉 Plugins y MCPs 👈](https://sergarb1.github.io/FormacionIA-Agentes/05-plugins-mcp/) | 🌳 Avanzado | 12 | El estándar MCP, servidores de GitHub, base de datos (readonly) y navegador, plugins como paquetes de capacidades y seguridad con mínimo privilegio |
-| 6 | [👉 Desarrollo y Operaciones con agentes 👈](https://sergarb1.github.io/FormacionIA-Agentes/06-devops-agentes/) | 🌳 Avanzado | 11 | Docker y compose con criterio, CI/CD con GitHub Actions, scripts de despliegue, observabilidad, auditoría de seguridad y uso responsable |
+| 6 | [👉 Documentación como código 👈](https://sergarb1.github.io/FormacionIA-Agentes/08-documentacion-as-code/) | 🌳 Avanzado | 11 | Docs vivas: Markdown en el repo, diagramas Mermaid y Excalidraw, ADRs por decisión, doc de API generada desde el código y la doc en el pipeline |
 | 7 | [👉 Infraestructura como código 👈](https://sergarb1.github.io/FormacionIA-Agentes/07-infra-as-code/) | 🌳 Avanzado | 11 | Infra versionada: Docker Compose con healthchecks, Terraform con plan antes de apply, Containerlab para topologías de laboratorio, Ansible idempotente y riesgos reales | 
-| 8 | [👉 Documentación como código 👈](https://sergarb1.github.io/FormacionIA-Agentes/08-documentacion-as-code/) | 🌳 Avanzado | 11 | Docs vivas: Markdown en el repo, diagramas Mermaid y Excalidraw, ADRs por decisión, doc de API generada desde el código y la doc en el pipeline |
+| 8 | [👉 Desarrollo y Operaciones con agentes 👈](https://sergarb1.github.io/FormacionIA-Agentes/06-devops-agentes/) | 🌳 Avanzado | 11 | Docker y compose con criterio, CI/CD con GitHub Actions, scripts de despliegue, observabilidad, auditoría de seguridad y uso responsable |
 
 ---
 

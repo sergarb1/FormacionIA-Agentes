@@ -375,5 +375,5 @@ opencode plugins install review-pack</code></pre>
     <p class="sm">🎛️ <strong>Menos es más</strong>: conecta solo el dominio de tu tarea; suspende el resto</p>
   </div>
 </div>
-<p class="sm" style="text-align:center;margin-top:.5em;">Última: <strong>Dev con agentes</strong> — configuraciones, pipelines y operación, todo generado con el copiloto. 🚀</p>
+<p class="sm" style="text-align:center;margin-top:.5em;">Siguiente: <strong>Documentación como código</strong> — diagramas y docs que evolucionan con el código. 🚀</p>
 <p style="text-align:center;font-size:.45em;color:#94a3b8;margin-top:.4em;">CC BY-SA 4.0 · Sergi Garcia Barea · Octubre 2026</p>
