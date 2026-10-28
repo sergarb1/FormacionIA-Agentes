@@ -1,0 +1,18 @@
+{
+  "_voice": "es-ES-AlvaroNeural",
+  "_note": "Narración de 'Plugins y MCPs · Parte 5'",
+  "slides": [
+    { "id": 0, "title": "Portada", "text": "Quinta parte de la serie: plugins y MCP, los superpoderes del agente." },
+    { "id": 1, "title": "Agente básico vs conectado", "text": "Un agente básico no ve los issues, no abre prs, no consulta la base de datos ni prueba su propia web. Con herramientas conectadas, hace todo eso, con tu aprobación en cada uso." },
+    { "id": 2, "title": "Qué es MCP", "text": "MCP, Model Context Protocol, es un estándar abierto: cada servidor MCP expone herramientas que cualquier agente compatible puede usar. El mismo servidor sirve en OpenCode, Claude Code, Codex o Antigravity. Y los plugins son paquetes que traen skills, comandos y MCPs ya montados." },
+    { "id": 3, "title": "Los servidores habituales", "text": "Los servidores MCP más usados en desarrollo son cuatro: GitHub, base de datos, navegador y documentación actualizada. Regla práctica: conecta los MCP del dominio de tu tarea." },
+    { "id": 4, "title": "Cómo se activa", "text": "Se activan con una configuración declarativa en el proyecto: servidores locales por comando y remotos por URL, con la bandera de solo lectura para la base de datos. Va al repositorio, así el equipo comparte la misma configuración." },
+    { "id": 5, "title": "Caso 1: GitHub", "text": "Con el MCP de GitHub, el agente lee el issue real, implementa, se crea un PR citando el issue. La revisión humana sigue intacta: el agente nunca hace merge." },
+    { "id": 6, "title": "Caso 2: base de datos", "text": "Con el MCP de base de datos en solo lectura, el agente consulta el esquema real antes de proponer la migración: claves, tipos y convenciones de nombres. La migración encaja a la primera." },
+    { "id": 7, "title": "Caso 3: navegador", "text": "Con el MCP de navegador, el agente abre localhost, envía el formulario vacío, prueba un envío correcto y revisa la consola: verifica lo que acaba de escribir en el mundo real." },
+    { "id": 8, "title": "Plugins", "text": "Un plugin agrupa skills, comandos y configuración de MCPs para un flujo repetido, como una revisión de código o una suite de tests. Cuando ya has explicado dos veces un flujo, conviértelo en plugin." },
+    { "id": 9, "title": "Riesgos", "text": "Los riesgos de conectar herramientas: permisos que sobran, base de datos de escritura por defecto, demasiados servidores a la vez y fuentes no verificadas. Principio de mínimo privilegio y aprobación de cada uso." },
+    { "id": 10, "title": "Mini-caso completo", "text": "Todo junto en una tarea real: plan aprobado, esquema consultado con el MCP de base de datos, implementación paso a paso, verificación con el navegador, PR con el MCP de GitHub y regla nueva en AGENTS.md." },
+    { "id": 11, "title": "Resumen", "text": "MCPs como herramientas estándar, plugins como paquetes de capacidades, y seguridad con permisos justos. Siguiente y última: desarrollo y operaciones con agentes." }
+  ]
+}

@@ -1,0 +1,9 @@
+# Proyecto Slidev
+slidev/node_modules/
+slidev/dist/
+slidev/.slidev/
+slidev/*.md__slidev_*.md
+
+# Sistema
+.DS_Store
+Thumbs.db

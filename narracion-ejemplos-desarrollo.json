@@ -1,0 +1,17 @@
+{
+  "_voice": "es-ES-AlvaroNeural",
+  "_note": "Narración de 'Ejemplos de desarrollo con agentes · Parte 4'",
+  "slides": [
+    { "id": 0, "title": "Portada", "text": "Cuarta parte de la serie: ejemplos reales de desarrollo con agentes. Código, configuraciones y scripts, paso a paso." },
+    { "id": 1, "title": "Ejemplo 1: frontend", "text": "Primero, un componente de registro con validación en vivo: campos y reglas exactas, accesibilidad pedida de fábrica, reutilización del composable existente y tests incluidos en la misma tarea." },
+    { "id": 2, "title": "Ejemplo 2: API REST", "text": "Segundo, un CRUD completo sobre una API REST: endpoints, validaciones, formato de error exacto, códigos HTTP correctos y tests de integración. Pedir que siga el estilo de un módulo existente mantiene la coherencia." },
+    { "id": 3, "title": "Ejemplo 3: base de datos", "text": "Tercero, la base de datos: migración con modelo explícito, claves foráneas con su política de borrado, índice único que evita duplicados y datos de prueba realistas. Todo aplicado en local con docker compose." },
+    { "id": 4, "title": "Ejemplo 4: tests", "text": "Cuarto, tests para código que ya existe: el patrón de caracterización. Creas la red de tests antes de tocar código viejo, y si el agente encuentra un bug, que lo anote y no lo arregle todavía." },
+    { "id": 5, "title": "Ejemplo 5: refactor", "text": "Quinto, refactor con red de seguridad: extraer funciones puras sin cambiar el comportamiento, con los tests como red. Commit limpio, solo refactor, sin cambio de conducta." },
+    { "id": 6, "title": "Ejemplo 6: depurar", "text": "Sexto, depurar desde un traceback: pega el error completo, pide la causa exacta, el arreglo mínimo, un test que reproduzca el caso y un barrido del mismo patrón en el resto del código." },
+    { "id": 7, "title": "Ejemplo 7: documentación", "text": "Séptimo, documentación que no miente: README y arquitectura generados leyendo el código real, con diagramas Mermaid y lo no verificable marcado con señal de atención para revisar." },
+    { "id": 8, "title": "En común", "text": "Todos estos prompts comparten cuatro cosas: están anclados al repositorio real, tienen alcance definido, incluyen cómo verificar el resultado y ponen reglas de seguridad como no tocar o notificar en vez de arreglar." },
+    { "id": 9, "title": "Ejemplo 8: configuración", "text": "Octavo, configuración y despliegue: Dockerfile multi-stage, docker compose con healthchecks, y un punto env de ejemplo con todas las variables. La infraestructura también es texto, y se genera igual que el código. Se profundiza en la parte seis." },
+    { "id": 10, "title": "Resumen", "text": "En esta parte: código, datos, calidad y configuración, con prompts anclados a tu repositorio. Siguiente: plugins y servidores MCP para dar superpoderes al agente." }
+  ]
+}

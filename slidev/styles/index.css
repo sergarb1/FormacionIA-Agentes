@@ -1,0 +1,210 @@
+/* ══════════════════════════════════════════════════════════
+   Estilos compartidos de las presentaciones (Slidev)
+   Puerto del diseño original en Reveal.js de este proyecto.
+   ────────────────────────────────────────────────────────── */
+
+/* ── Base de diapositiva ── */
+.slidev-page {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-size: 40px;
+  overflow: hidden;
+}
+
+.slidev-layout {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 0 5% !important;
+  font-size: .85em;
+  line-height: 1.35;
+  color: #2c3e50;
+}
+
+.slidev-layout h1, .slidev-layout h2 {
+  font-size: 1.5em; margin-bottom: .3em; color: #1e3a5f; line-height: 1.2; font-weight: 700;
+}
+.slidev-layout h3 {
+  font-size: .95em; color: #475569; margin-bottom: .35em; font-weight: 500;
+}
+.slidev-page p { margin: .25em 0; }
+.slidev-page ul, .slidev-page ol { margin: .15em 0; padding-left: 1.2em; }
+.slidev-page li { margin-bottom: .1em; }
+.slidev-page a { color: #2563eb; }
+.slidev-page hr { border: none; border-top: 1px solid #e2e8f0; margin: .4em 0; }
+
+.slidev-page pre {
+  font-size: .55em; background: #f8fafc; padding: 10px 14px;
+  border-radius: 6px; margin: .1em 0 0 0; border-left: 3px solid #f59e0b;
+  white-space: pre-wrap; word-wrap: break-word; line-height: 1.28;
+}
+.slidev-page pre code { max-height: none; background: transparent; padding: 0; }
+
+/* ── Rejillas ── */
+.g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1em; margin: .3em 0; align-items: start; }
+.g3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: .8em; margin: .3em 0; }
+
+/* ── Tarjetas ── */
+.card {
+  background: #f8fafc; border-radius: 8px; padding: .6em .8em;
+  border: 1px solid #e2e8f0;
+}
+.card.green  { border-top-color: #10b981; border-top: 3px solid #10b981; }
+.card.blue   { border-top: 3px solid #3b82f6; }
+.card.amber  { border-top: 3px solid #f59e0b; }
+.card.purple { border-top: 3px solid #8b5cf6; }
+.card.teal   { border-top: 3px solid #14b8a6; }
+.card.rose   { border-top: 3px solid #ec4899; }
+.card.red    { border-top: 3px solid #dc2626; }
+.card.orange { border-top: 3px solid #ea580c; }
+.card p { margin: 0; }
+.card p + p { margin-top: .15em; }
+
+/* ── Prompt card ── */
+.pc {
+  background: #f8fafc; border-radius: 8px; padding: .4em .6em .2em .6em;
+  border: 1px solid #e2e8f0; margin-bottom: .35em;
+}
+.pl {
+  font-size: .55em; color: #64748b; text-transform: uppercase;
+  letter-spacing: .04em; margin-bottom: .15em;
+}
+
+/* ── Explicación ── */
+.exp {
+  background: #f0f4ff; border-radius: 8px; padding: .4em .7em .2em .7em;
+  border: 1px solid #dbeafe;
+}
+.exp-list { list-style: none; padding: 0; margin: .15em 0; }
+.exp-list li {
+  font-size: .6em; color: #1e3a5f; margin-bottom: .25em;
+  padding-left: 1.5em; position: relative; line-height: 1.4;
+}
+.exp-list li::before { content: "✅"; position: absolute; left: 0; font-size: .82em; }
+
+/* ── Tip ── */
+.tip {
+  background: #fef3c7; border-radius: 6px; padding: .25em .6em;
+  font-size: .58em; color: #92400e;
+  border-left: 3px solid #f59e0b;
+}
+
+/* ── Footer con badges ── */
+.ftr {
+  font-size: .58em; color: #64748b;
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+}
+.tb { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: .85em; font-weight: 600; }
+.tb.fb    { background: #ede9fe; color: #5b21b6; }  /* Freebuff */
+.tb.op    { background: #d1fae5; color: #065f46; }  /* OpenCode */
+.tb.canva { background: #fce7f3; color: #9d174d; }  /* Canva */
+.tb.chat  { background: #fef3c7; color: #92400e; }  /* ChatGPT */
+.tb.gem   { background: #dbeafe; color: #1e40af; }  /* Gemini */
+.tb.both  { background: #e0e7ff; color: #3730a3; }  /* Freebuff + OpenCode */
+
+/* ── Tags (materias) ── */
+.tag { display: inline-block; padding: 1px 7px; border-radius: 4px; font-size: .7em; font-weight: 600; }
+.tag.g  { background: #dcfce7; color: #166534; }
+.tag.o  { background: #ffedd5; color: #9a3412; }
+.tag.p  { background: #f3e8ff; color: #6b21a8; }
+.tag.pk { background: #fce7f3; color: #9d174d; }
+.tag.t  { background: #ccfbf1; color: #115e59; }
+.tag.gy { background: #f1f5f9; color: #475569; }
+.tag.rw { background: #ffe4e6; color: #9f1239; }
+.tag.r  { background: #fee2e2; color: #991b1b; }
+.tag.b  { background: #dbeafe; color: #1e40af; }
+.tag.y  { background: #fef9c3; color: #854d0e; }
+.tag.green  { background: #dcfce7; color: #166534; }
+.tag.amber  { background: #fef3c7; color: #92400e; }
+.tag.purple { background: #f3e8ff; color: #6b21a8; }
+.tag.teal   { background: #ccfbf1; color: #115e59; }
+.tag.blue   { background: #dbeafe; color: #1e40af; }
+.tag.rose   { background: #fce7f3; color: #9d174d; }
+.tag.red    { background: #fee2e2; color: #991b1b; }
+.tag.orange { background: #ffedd5; color: #9a3412; }
+
+/* ── Resaltado ── */
+.highlight { background: #fef3c7; color: #92400e; padding: 0 4px; border-radius: 3px; font-weight: 600; }
+
+/* ── Texto pequeño ── */
+.sm { font-size: .6em; color: #64748b; }
+
+/* ── Tablas compactas ── */
+.tbl { width: 100%; border-collapse: collapse; font-size: .6em; }
+.tbl th { text-align: left; padding: .15em .4em; background: #f1f5f9; color: #1e3a5f; border-bottom: 2px solid #e2e8f0; }
+.tbl td { padding: .18em .4em; border-bottom: 1px solid #e2e8f0; vertical-align: top; }
+
+/* ── Lista de falacias (deck pensamiento crítico) ── */
+.fal-list { list-style: none; padding: 0; margin: .2em 0; }
+.fal-list li {
+  font-size: .58em; color: #1e293b; margin-bottom: .25em;
+  padding: .3em .5em; background: #f8fafc; border-radius: 6px;
+  border-left: 3px solid #dc2626; line-height: 1.35;
+}
+
+/* ── Pasos numerados ── */
+.f-item {
+  display: flex; align-items: center; gap: 10px;
+  margin-bottom: .2em; padding: .2em .4em;
+  background: #f8fafc; border-radius: 6px;
+}
+.f-item .num {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 28px; height: 28px; border-radius: 50%;
+  background: #1e3a5f; color: #fff; font-size: .7em; font-weight: 700;
+  flex-shrink: 0;
+}
+.f-item div { font-size: .65em; }
+
+/* ── Comparativa 4 columnas ── */
+.cmp-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: .4em; margin: .3em 0; }
+.cmp-card {
+  text-align: center; border-radius: 8px; padding: .4em .2em;
+  border: 1px solid #e2e8f0; background: #f8fafc;
+}
+.cmp-card .icon { font-size: 1.6em; }
+.cmp-card .name { font-size: .6em; font-weight: 700; margin: .15em 0; }
+.cmp-card .detail { font-size: .48em; color: #64748b; line-height: 1.3; }
+
+/* ── Cabecera de ejemplo con número (deck imágenes) ── */
+.hdr {
+  margin-bottom: .35em; padding-bottom: .3em;
+  border-bottom: 2px solid #e2e8f0;
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+}
+.tn { font-size: 1.3em; font-weight: 700; color: #e67e22; line-height: 1; }
+.hdr strong { font-size: .95em; }
+
+/* ── Badges de servicio (deck imágenes) ── */
+.bg { display: inline-block; background: #dcfce7; color: #166534; padding: 1px 8px; border-radius: 10px; font-size: .65em; font-weight: 500; }
+.bb { display: inline-block; background: #dbeafe; color: #1e40af; padding: 1px 8px; border-radius: 10px; font-size: .65em; font-weight: 500; }
+
+/* ── Audio narrado (botón global) ── */
+.audio-ctrl {
+  position: fixed; z-index: 50; bottom: 14px; left: 20px;
+  font-size: .6em;
+  background: rgba(255,255,255,.88); padding: 4px 10px;
+  border-radius: 20px; box-shadow: 0 1px 4px rgba(0,0,0,.12);
+  backdrop-filter: blur(4px); cursor: pointer; user-select: none;
+  border: none; line-height: 1;
+}
+.audio-ctrl:hover { color: #1e3a5f; }
+
+/* Píldora CC BY-SA de portadas */
+.credit {
+  display: inline-block; background: #f1f5f9; padding: 4px 14px;
+  border-radius: 6px; font-size: .5em;
+}
+
+audio.deck-audio { display: none; }
+
+/* ── Impresión / export ── */
+@media print, screen {
+  .slidev-export .audio-ctrl { display: none; }
+}
+
+/* ── Móvil ── */
+@media screen and (max-width: 480px) {
+  .g2 { grid-template-columns: 1fr; gap: .6em; }
+  .g3 { grid-template-columns: 1fr 1fr; }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "formacionia-agentes-slidev",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Presentaciones educativas del curso Codificar con Agentes de IA, en Slidev",
+  "author": "Sergi Garcia Barea",
+  "license": "CC-BY-SA-4.0",
+  "scripts": {
+    "dev": "npm run dev:01",
+    "build": "node build-todos.mjs build",
+    "build:pdf": "node build-todos.mjs build pdf",
+    "pdf": "node build-todos.mjs pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^53.0.0",
+    "@slidev/theme-default": "^0.25.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.64.1"
+  }
+}

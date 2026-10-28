@@ -1,0 +1,21 @@
+{
+  "_voice": "es-ES-AlvaroNeural",
+  "_note": "Narración de 'Agentes de código · Parte 1'",
+  "slides": [
+    { "id": 0, "title": "Portada", "text": "Bienvenidos a la serie 'IA como copiloto de desarrollo y operaciones'. En seis presentaciones vamos a aprender a codificar con agentes, paso a paso y con herramientas gratuitas. En esta primera parte: qué son los agentes de código y qué herramientas tenemos." },
+    { "id": 1, "title": "Del chatbot al agente", "text": "Un chatbot de IA te da código para copiar y pegar, sin ver tu proyecto. Un agente de código es la misma inteligencia, pero con manos: lee tu proyecto entero, edita ficheros reales y ejecuta comandos hasta que lo pedido funciona." },
+    { "id": 2, "title": "Para qué sirve", "text": "Un copiloto de desarrollo y operaciones genera código, configuraciones y scripts. También tests, revisiones de seguridad y documentación. Eso es exactamente el objetivo de esta serie." },
+    { "id": 3, "title": "OpenCode", "text": "OpenCode es el agente gratuito y open source que usaremos de base. Se instala con npm, trabaja en modo agente: crea ficheros, lanza comandos y acepta skills, AGENTS punto md y servidores MCP, que veremos más adelante." },
+    { "id": 4, "title": "Freebuff", "text": "Freebuff es el agente en el navegador, en freebuff punto com. Sin instalar nada, describe la tarea y lo prepara: prompts, prototipos, scripts o webs completas. La combinación ideal es Freebuff para preparar y OpenCode para ejecutar en tu repositorio." },
+    { "id": 5, "title": "Comparativa", "text": "Comparativa rápida: OpenCode es gratuito y open source; Freebuff tiene capa gratis en el navegador; Claude Code y Codex son agentes de terminal con capa gratuita limitada; y Antigravity es el IDE agéntico de Google. Todos comparten plan, skills, AGENTS md y MCPs." },
+    { "id": 6, "title": "Claude Code", "text": "Claude Code, de Anthropic, destaca en razonamiento de código y contexto largo. Su capa gratuita es limitada, e incluye subagentes, skills y MCPs nativos." },
+    { "id": 7, "title": "Codex", "text": "Codex, de OpenAI, genera código estructurado con buen estilo y tiene un modo sandbox para ejecutar comandos de forma controlada. También acepta AGENTS md, con cuota limitada en su capa gratis." },
+    { "id": 8, "title": "Antigravity", "text": "Antigravity, de Google, es un entorno de desarrollo con agentes integrados: planificación por tareas y navegador para comprobar la interfaz. Su capa gratuita es generosa, con cuotas por modelo." },
+    { "id": 9, "title": "Instalar y arrancar", "text": "Para arrancar: instala OpenCode globalmente, entra en tu proyecto con git clone y cd, y lanza OpenCode. El primer paso recomendado es dejar que explore y te explique la estructura." },
+    { "id": 10, "title": "Primera petición", "text": "Una primera petición bien hecha: nombra el fichero y el lenguaje, lista requisitos concretos, da tu entorno, pide explicación y añade un modo de prueba seguro. Así el resultado es predecible y aprendes de cada iteración." },
+    { "id": 11, "title": "Cómo se habla", "text": "La diferencia entre un prompt vago y uno bueno es enorme: qué hay que hacer, con qué tecnología, con qué restricciones y con qué criterio de éxito. Con ese cuarto elemento, el resultado casi siempre sale bien." },
+    { "id": 12, "title": "El flujo básico", "text": "El flujo básico con un agente: descíribes la tarea, el agente propone un plan, aceptas y construyes, revisas y pruebas, iteras y confirmas en Git. Es el flujo plan, hacer, verificar, iterar que ampliaremos en las próximas partes." },
+    { "id": 13, "title": "Buenos hábitos", "text": "Buenos hábitos: trabaja en un repositorio Git, revisa cada cambio, pide que explique, trocea las tareas, nunca pegues secretos y recuerda que el agente es un copiloto: tú decides y la responsabilidad final es tuya." },
+    { "id": 14, "title": "Resumen", "text": "En esta primera parte: un agente es un modelo de lenguaje con manos, y las herramientas gratuitas recomendadas son OpenCode y Freebuff, con Claude Code, Codex y Antigravity como alternativas. En la siguiente: el flujo profesional plan - hacer." }
+  ]
+}

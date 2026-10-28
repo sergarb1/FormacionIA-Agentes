@@ -1,0 +1,18 @@
+{
+  "_voice": "es-ES-AlvaroNeural",
+  "_note": "Narración de 'Plan y Hacer con agentes · Parte 2'",
+  "slides": [
+    { "id": 0, "title": "Portada", "text": "Segunda parte de la serie: Plan y Hacer, el flujo profesional para construir una feature completa con un agente de código." },
+    { "id": 1, "title": "El límite del todo de golpe", "text": "Pedirle todo de golpe produce ficheros a medias y tests que fallan. Planificar primero y ejecutar en pasos pequeños produce código verificado, commits limpios y un rumbo que controlas tú." },
+    { "id": 2, "title": "Fase plan", "text": "La fase de plan no toca código: explorar el proyecto, pedir opciones con pros y contras, fijar requisitos con criterios de aceptación y aprobar un plan por pasos. Basta con decirle: solo plan, no ejecutes nada." },
+    { "id": 3, "title": "Fase hacer", "text": "En la fase de hacer, un paso del plan por iteración, verificación antes de continuar, commit limpio con mensaje claro y siguiente paso. Si algo sale mal, el plan es editable." },
+    { "id": 4, "title": "El diálogo", "text": "El diálogo completo cabe en cuatro mensajes: pides el plan, lo corriges, ejecutas el paso uno y confirmas. Sin plan, serían veinte mensajes de rescate." },
+    { "id": 5, "title": "Criterios de aceptación", "text": "Los criterios de aceptación dicen cuándo está hecho: cada uno es una prueba que se puede validar. Pídeselos antes de programar y apruébalos uno a uno." },
+    { "id": 6, "title": "Dividir en tareas", "text": "Las buenas unidades de trabajo cambian pocos ficheros y se verifican compilando o testando. Orden recomendado: datos, lógica con tests, interfaz y detalles visuales." },
+    { "id": 7, "title": "Verificar", "text": "Pide al agente el bucle de verificación: ejecuta los tests, reintenta con límite, y si sigue atascado, para y explica, en vez de dejar código a medias. El agente que lee sus propios errores y reintenta es de lo más valioso del método." },
+    { "id": 8, "title": "Cuando va mal", "text": "Tienes tres frenos de emergencia: para, revertir y solo plan. Si rompió algo, git diff y restaurar. Si se pasa de alcance, volver al paso del plan. Y si perdió contexto, el historial de Git guarda el estado." },
+    { "id": 9, "title": "Ejemplo real", "text": "Ejemplo real: importar un CSV de alumnos, en cinco pasos verificados con commit tras cada uno. Cualquier paso puede revertirse sin perder el resto." },
+    { "id": 10, "title": "Modo autónomo", "text": "Con el plan maduro puedes dar varios pasos seguidos, con tres reglas: commit verificado tras cada paso, pararse si algo falla y guardar el plan en un PLAN punto md del repositorio." },
+    { "id": 11, "title": "Resumen", "text": "Plan para preparar el terreno sin tocar código, hacer con pasos pequeños verificados y commits limpios. Criterios de aceptación para saber cuándo está hecho. Siguiente: AGENTS punto md y skills." }
+  ]
+}

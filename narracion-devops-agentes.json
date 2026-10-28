@@ -1,0 +1,17 @@
+{
+  "_voice": "es-ES-AlvaroNeural",
+  "_note": "Narración de 'Desarrollo y Operaciones con agentes · Parte 6'",
+  "slides": [
+    { "id": 0, "title": "Portada", "text": "Última parte de la serie: desarrollo y operaciones con agentes. Configuraciones, pipelines y operación, todo generado con el copiloto." },
+    { "id": 1, "title": "Dev más Ops", "text": "Hasta aquí hemos cubierto la mitad de desarrollo. Falta la de operaciones: contenedores, pipelines, configuraciones y scripts de despliegue. Suena técnico, pero es texto con reglas: si se puede describir, se puede generar y revisar." },
+    { "id": 2, "title": "Docker", "text": "Para dockerizar, pide multi-stage con imagen slim, usuario no root, dockerignore correcto, compose con healthcheck y variables separadas del código. Y el agente puede leer los logs del contenedor si algo no arranca." },
+    { "id": 3, "title": "CI", "text": "En integración continua, un workflow que compile, haga lint y testee en cada PR. Pide que explique por qué cada paso. Y si falla, el agente puede leer el log del job y proponer el arreglo." },
+    { "id": 4, "title": "Scripts", "text": "Los scripts de despliegue y copia de seguridad también se generan: con ayuda integrada, set e u o pipefail, modo de prueba en seco y sin secretos en el código. Los scripts se testean como código." },
+    { "id": 5, "title": "Observabilidad", "text": "Para operar: endpoint de salud, logs útiles y qué monitorizar con criterios. Y para resolver incidentes, el agente formula hipótesis, busca en los datos y descarta causas. También redacta el informe posterior leyendo Git y los logs." },
+    { "id": 6, "title": "Auditoría de seguridad", "text": "Pide auditorías rápidas: dependencias con avisos, secretos comiteados por accidente, endpoints sin autentificar y vulnerabilidades del propio código. Que reporte sin cambiar nada todavía; es una primera pasada, no un pentest." },
+    { "id": 7, "title": "Uso responsable", "text": "Uso responsable: aprende en vez de solo copiar, sé capaz de defender cada línea, atribuye uso de la IA y nunca lo uses para disimular copias, secretos nunca en prompts, y recuerda las cuotas de la capa gratuita." },
+    { "id": 8, "title": "El flujo completo", "text": "El flujo completo, de la idea a la operación: el agente explora, implementa, verifica y despliega; el humano decide, aprueba, revisa y aprende. La responsabilidad es tuya en todo el recorrido." },
+    { "id": 9, "title": "Tu próximo proyecto", "text": "Para tu próximo proyecto: repositorio con AGENTS.md desde el minuto uno, plan con criterios de aceptación, herramientas conectadas con permisos justos, calidad en cada iteración, documentación viva y aprender en vez de delegar." },
+    { "id": 10, "title": "Resumen de la serie", "text": "Resumen de la serie: agentes, el flujo plan y hacer, AGENTS.md y skills, ejemplos de desarrollo, plugins y MCPs, y desarrollo más operaciones. IA como copiloto: tú pilotas, la IA acelera, y siempre revisa." }
+  ]
+}
