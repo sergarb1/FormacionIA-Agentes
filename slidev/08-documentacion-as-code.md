@@ -204,12 +204,12 @@ enlazando a la doc."</code></pre>
 <h2>🎓 Reto del curso</h2>
 <div class="g2" style="font-size:.9em;">
   <div class="card teal" style="text-align:center;">
-    <p style="font-size:1.3em;margin:0;">📐</p>
+    <p style="font-size:1.3em;line-height:1.15;margin:.05em 0 .12em;">📐</p>
     <p><strong>Mini-reto docs</strong></p>
     <p class="sm">Documenta tu proyecto de la asignatura: README + arquitectura.md con Mermaid + 2 ADRs, dentro del repo y revisado por el copiloto</p>
   </div>
   <div class="card purple" style="text-align:center;">
-    <p style="font-size:1.3em;margin:0;">🤖</p>
+    <p style="font-size:1.3em;line-height:1.15;margin:.05em 0 .12em;">🤖</p>
     <p><strong>Prompt de arranque</strong></p>
     <pre style="font-size:.55em;text-align:left;margin:.2em 0;"><code>"Explora el repo y propón la
 estructura de docs para una demo

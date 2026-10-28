@@ -216,12 +216,12 @@ no cambia nada la segunda."</code></pre>
 <h2>🎓 Reto del curso</h2>
 <div class="g2" style="font-size:.9em;">
   <div class="card blue" style="text-align:center;">
-    <p style="font-size:1.3em;margin:0;">🧪</p>
+    <p style="font-size:1.3em;line-height:1.15;margin:.05em 0 .12em;">🧪</p>
     <p><strong>Mini-reto IaC</strong></p>
     <p class="sm">Diseña con el copiloto un lab: compose con app + BD para tu asignatura, y Containerlab con una topología de 2 routers</p>
   </div>
   <div class="card amber" style="text-align:center;">
-    <p style="font-size:1.3em;margin:0;">🤖</p>
+    <p style="font-size:1.3em;line-height:1.15;margin:.05em 0 .12em;">🤖</p>
     <p><strong>Prompt de arranque</strong></p>
     <pre style="font-size:.55em;text-align:left;margin:.2em 0;"><code>"Convierte la descripción de mi
 demo en infra-as-code: compose +

@@ -1,8 +1,0 @@
-import{L as e,T as t,Y as n,_ as r,b as i,g as a,gt as o,mt as s}from"./modules/shiki-CTmrkNOW.js";import{et as c,tt as l}from"./index-CZP5ZMMV.js";import{t as u}from"./slidev/default-BTW78lUV.js";var d={__name:`07-infra-as-code.md__slidev_7`,setup(d){let{$slidev:f,$nav:p,$clicksContext:m,$clicks:h,$page:g,$renderContext:_,$frontmatter:v}=l();return m.setup(),(l,d)=>(e(),r(u,o(t(s(c)(s(v),6))),{default:n(()=>[...d[0]||=[a(`p`,null,[a(`audio`,{class:`deck-audio`,src:`../audio-infra-as-code/slide06.mp3`})],-1),a(`h2`,null,`⚙️ Ejemplo 4 · Ansible: playbooks idempotentes`,-1),a(`div`,{class:`g2`,style:{gap:`1.2em`}},[a(`div`,{class:`pc`,style:{margin:`0`}},[a(`div`,{class:`pl`},`💬 Prompt`),a(`pre`,{style:{"font-size":`.5em`,"border-left-color":`#f59e0b`}},[a(`code`,null,`"En ansible/: playbook que
-configura los servidores web:
-- actualizar paquetes base
-- instalar nginx + copiar conf
-- abrir 80/443 en el firewall
-- service nginx habilitado
-Idempotente: ejecutarlo dos veces
-no cambia nada la segunda."`)]),a(`div`,{class:`ftr`},[a(`span`,{class:`tb op`},`OpenCode`),i(` · Ansible`)])]),a(`div`,{class:`exp`},[a(`div`,{class:`pl`},`✅ Qué vigilar`),a(`ul`,{class:`exp-list`},[a(`li`,null,[a(`strong`,null,`Idempotencia`),i(`: el playbook se puede repetir sin efectos secundarios`)]),a(`li`,null,[a(`strong`,null,`Inventario`),i(` separado del playbook (ini/yaml, en `),a(`code`,null,`ansible/inventory/`),i(`)`)]),a(`li`,null,[i(`Secretos con `),a(`strong`,null,`ansible-vault`),i(`, nunca en claro`)]),a(`li`,null,[i(`Pide al agente que `),a(`strong`,null,`ejecute con --check`),i(` antes del real (dry-run)`)])])])],-1)]]),_:1},16))}};export{d as default};

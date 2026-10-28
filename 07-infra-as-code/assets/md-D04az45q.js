@@ -1,8 +1,0 @@
-import{L as e,T as t,Y as n,_ as r,b as i,g as a,gt as o,mt as s}from"./modules/shiki-CTmrkNOW.js";import{et as c,tt as l}from"./index-CZP5ZMMV.js";import{t as u}from"./slidev/default-BTW78lUV.js";var d={__name:`07-infra-as-code.md__slidev_4`,setup(d){let{$slidev:f,$nav:p,$clicksContext:m,$clicks:h,$page:g,$renderContext:_,$frontmatter:v}=l();return m.setup(),(l,d)=>(e(),r(u,o(t(s(c)(s(v),3))),{default:n(()=>[...d[0]||=[a(`p`,null,[a(`audio`,{class:`deck-audio`,src:`../audio-infra-as-code/slide03.mp3`})],-1),a(`h2`,null,`🐳 Ejemplo 1 · Docker Compose con criterio`,-1),a(`div`,{class:`g2`,style:{gap:`1.2em`}},[a(`div`,{class:`pc`,style:{margin:`0`}},[a(`div`,{class:`pl`},`💬 Prompt`),a(`pre`,{style:{"font-size":`.5em`,"border-left-color":`#10b981`}},[a(`code`,null,`"Genera el compose.yaml de la demo:
-- web (FastAPI, puerto 8000) y db
-  (postgres:16, salud y retry)
-- volumen persistente para datos
-- red interna, sin puertos para db
-- healthchecks en ambos servicios
-- .env para las contraseñas
-Versiona y explica por qué."`)]),a(`div`,{class:`ftr`},[a(`span`,{class:`tb op`},`OpenCode`),i(` · Compose`)])]),a(`div`,{class:`exp`},[a(`div`,{class:`pl`},`✅ Lo que te pide el detalle`),a(`ul`,{class:`exp-list`},[a(`li`,null,[a(`strong`,null,`Healthcheck`),i(` en db: web no arranca antes de que esté lista`)]),a(`li`,null,[a(`strong`,null,`depends_on con condition`),i(`: orden real de arranque`)]),a(`li`,null,[a(`strong`,null,`.env fuera del compose`),i(`: nada de secretos versionados`)]),a(`li`,null,[a(`strong`,null,`db sin puertos publicados`),i(`: solo la red interna`)]),a(`li`,null,[i(`El agente `),a(`strong`,null,`verifica`),i(`: levanta, prueba y baja el stack`)])])])],-1)]]),_:1},16))}};export{d as default};

@@ -1,8 +1,0 @@
-import{L as e,T as t,Y as n,_ as r,b as i,g as a,gt as o,mt as s}from"./modules/shiki-CTmrkNOW.js";import{et as c,tt as l}from"./index-Dt2kbUB9.js";import{t as u}from"./slidev/default-C0qqIP8k.js";var d={__name:`08-documentacion-as-code.md__slidev_8`,setup(d){let{$slidev:f,$nav:p,$clicksContext:m,$clicks:h,$page:g,$renderContext:_,$frontmatter:v}=l();return m.setup(),(l,d)=>(e(),r(u,o(t(s(c)(s(v),7))),{default:n(()=>[...d[0]||=[a(`p`,null,[a(`audio`,{class:`deck-audio`,src:`../audio-documentacion-as-code/slide07.mp3`})],-1),a(`h2`,null,`🛠️ Ejemplo: doc-API con el copiloto`,-1),a(`div`,{class:`g2`,style:{gap:`1.2em`}},[a(`div`,{class:`pc`,style:{margin:`0`}},[a(`div`,{class:`pl`},`💬 Prompt`),a(`pre`,{style:{"font-size":`.5em`,"border-left-color":`#10b981`}},[a(`code`,null,`"Genera docs/api.md a partir
-del router FastAPI real:
-- tabla de endpoints con
-  método, ruta, body y respuesta
-- ejemplos curl ejecutables
-- lista de errores 4xx
-Y añade una nota en README
-enlazando a la doc."`)]),a(`div`,{class:`ftr`},[a(`span`,{class:`tb op`},`OpenCode`),i(` · docs/api.md`)])]),a(`div`,{class:`exp`},[a(`div`,{class:`pl`},`✅ La diferencia vs doc a mano`),a(`ul`,{class:`exp-list`},[a(`li`,null,[i(`Se genera `),a(`strong`,null,`desde el código real`),i(`: sin diseñar y aparte`)]),a(`li`,null,[i(`Las llamadas curl `),a(`strong`,null,`se ejecutan`),i(` y el resultado se copia tal cual`)]),a(`li`,null,[i(`Si cambias un endpoint, `),a(`strong`,null,`regenera y revisa el diff`),i(` en el PR`)]),a(`li`,null,[i(`Y en redacción: cada API documentada igual, con `),a(`strong`,null,`la misma plantilla`)])])])],-1)]]),_:1},16))}};export{d as default};

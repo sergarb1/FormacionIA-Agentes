@@ -301,7 +301,7 @@ Report con severidad y parche
   <div>
     <div class="card" style="margin-bottom:.3em;">
       <p>🧪 <strong>4. Calidad bajo pedido</strong></p>
-      <p class="sm">Tests en cada módulo, auditorías con el prompt de la parte 6, sin despliegues a ciegas.</p>
+      <p class="sm">Tests en cada módulo, auditorías con el prompt de esta parte, sin despliegues a ciegas.</p>
     </div>
     <div class="card" style="margin-bottom:.3em;">
       <p>📄 <strong>5. Documentación viva</strong></p>
