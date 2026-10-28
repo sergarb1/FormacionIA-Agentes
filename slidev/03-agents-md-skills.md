@@ -89,7 +89,7 @@ exportFilename: agents-md-skills
 <h2>🧱 Estructura recomendada</h2>
 <div class="pc">
   <div class="pl">📝 Esqueleto de AGENTS.md</div>
-  <pre style="font-size:.55em;border-left-color:#8b5cf6;"><code># Proyecto: cita-te
+  <pre style="font-size:.52em;border-left-color:#8b5cf6;"><code># Proyecto: cita-te
 &nbsp;
 ## Qué es
 Gestor de citas para clínicas. Single-user demo.
@@ -220,7 +220,7 @@ Gestor de citas para clínicas. Single-user demo.
 <h2>✍️ Tu propio skill</h2>
 <div class="pc">
   <div class="pl">📝 .agents/skills/homepage-web/SKILL.md</div>
-  <pre style="font-size:.55em;border-left-color:#10b981;"><code>&#45;&#45;&#45;
+  <pre style="font-size:.52em;border-left-color:#10b981;"><code>&#45;&#45;&#45;
 name: homepage-web
 description: Crea páginas web de práctica con JS puro y sin build
 &#45;&#45;&#45;
