@@ -7,10 +7,16 @@ import os
 import sys
 import urllib.parse
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
+# Los builds usan la base absoluta de Pages (/FormacionIA-Agentes/<slug>/),
+# así que se sirve la RAÍZ del repo (herramientas -> slidev -> raíz) y se
+# descuenta el prefijo del proyecto para que la URL imite a GitHub Pages.
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+REPO_PREFIX = '/FormacionIA-Agentes'
 
 class SPAHandler(http.server.SimpleHTTPRequestHandler):
     def translate_path(self, path):
+        if path == REPO_PREFIX or path.startswith(REPO_PREFIX + '/'):
+            path = path[len(REPO_PREFIX):] or '/'
         p = super().translate_path(path)
         # Fallback SPA: si no existe el fichero, sirve el index.html del deck
         # (equivalente al comportamiento de GitHub Pages con _redirects/404.html)

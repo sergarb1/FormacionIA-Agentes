@@ -1,0 +1,71 @@
+{
+  "_voice": "es-ES-AlvaroNeural",
+  "_note": "Narración de 'OpenSpec · Parte 9'",
+  "slides": [
+    {
+      "id": 0,
+      "title": "Portada",
+      "text": "Parte nueve de la serie: OpenSpec, especificaciones que el agente ejecuta. Cómo acordar el comportamiento antes de escribir código, con un flujo de cinco pasos y los artefactos versionados en el repositorio."
+    },
+    {
+      "id": 1,
+      "title": "El problema",
+      "text": "El agente construye lo que entendió, no lo que querías. Sin especificación, el plan vive en el chat, se pierde al cerrar la sesión y los requisitos aparecen a mitad del código. Con OpenSpec, el contrato de comportamiento es Markdown versionado, humano y agente revisan el mismo plan y el progreso vive en un checklist."
+    },
+    {
+      "id": 2,
+      "title": "Qué es OpenSpec",
+      "text": "OpenSpec son tres piezas: un CLI en Node sin claves de API ni servidores MCP; unos workflows que se instalan como skills y comandos en la carpeta de tu agente; y una carpeta openspec en la raíz del repositorio con las specs, los cambios en curso y el archivo histórico. Es open source y funciona con OpenCode, Claude Code, Codex, Cursor, Copilot o Antigravity, entre otros."
+    },
+    {
+      "id": 3,
+      "title": "Anatomía de la carpeta",
+      "text": "Dentro de openspec hay dos mitades: specs, con una carpeta por capability, describe cómo es el sistema hoy; changes contiene una carpeta por cambio en curso, con propuesta, spec delta, diseño y tareas. Al terminar, el cambio pasa a changes archive con fecha. Todo se commitea junto al código."
+    },
+    {
+      "id": 4,
+      "title": "Instalación",
+      "text": "Tres comandos: instala el CLI, ejecuta openspec init en la raíz del proyecto y elige tus herramientas; y usa openspec update para refrescar skills y comandos. Init escribe la carpeta openspec con su configuración y los workflows en la carpeta de tu agente. Re-ejecutarlo es seguro: refresca, no duplica."
+    },
+    {
+      "id": 5,
+      "title": "El ciclo",
+      "text": "Cinco pasos: explorar la idea con el agente, proponer el cambio, revisar el plan, aplicarlo tarea a tarea y archivarlo. Es el flujo plan y hacer, pero con el plan convertido en artefactos del repositorio y una fase final que actualiza la documentación del sistema."
+    },
+    {
+      "id": 6,
+      "title": "Explore y Propose",
+      "text": "En explore el agente investiga, compara opciones y afina la idea sin tocar el repositorio. En propose escribe la carpeta del cambio: propuesta, requisitos testables, diseño técnico cuando hace falta y lista de tareas. Al terminar, no se ha modificado ni una línea de código."
+    },
+    {
+      "id": 7,
+      "title": "Revisar el plan",
+      "text": "Revisa en orden: primero la propuesta, para comprobar que el problema y el tamaño son correctos; después las specs, preguntándote si aceptarías esos requisitos como hechos; luego el diseño; y por último las tareas. Son ficheros Markdown: puedes editarlos o pedir correcciones. Lo que no revises aquí lo pagarás en el diff."
+    },
+    {
+      "id": 8,
+      "title": "Una spec de verdad",
+      "text": "Una spec delta usa operaciones: añadidos, modificados, eliminados y renombrados. Cada requisito se escribe con shall o must, sin nombres de clases ni librerías, y cada escenario usa cuatro almohadillas con when y then. La validación estricta añade el límite de quinientos caracteres por requisito y exige escenarios con disparador y resultado."
+    },
+    {
+      "id": 9,
+      "title": "Apply y Archive",
+      "text": "En apply el agente lee la carpeta del cambio y trabaja las tareas marcando casillas; si pierde el contexto, retoma la primera sin marcar. Al archivar, los requisitos se fusionan en las specs del sistema y la carpeta se mueve al archivo con fecha, sin borrar nada. OpenSpec ordena el proceso, pero no comprueba que el código cumple: eso es de tus tests y tu revisión."
+    },
+    {
+      "id": 10,
+      "title": "CLI y comandos",
+      "text": "Los comandos que usarás: list para ver cambios en curso, list con el flag specs para el inventario de capabilities, show para leer artefactos, validate para comprobar el formato, archive para fusionar y archivar, y schemas para ver el flujo. En el chat, OpenCode usa barra opsx guion; Claude Code, barra opsx dos puntos; y las skills, barra openspec guion. El mismo workflow, distinta sintaxis."
+    },
+    {
+      "id": 11,
+      "title": "Cuándo sí y cuándo no",
+      "text": "Merece la pena cuando hay requisitos que alguien revisará, cuando el trabajo dura varias sesiones o lo comparte un equipo, en proyectos heredados y cuando necesitas justificar decisiones. Los errores típicos: specs que describen implementación, requisitos sin escenario, cambios monstruo, archivar sin revisar y usarlo para un typo."
+    },
+    {
+      "id": 12,
+      "title": "Reto y resumen",
+      "text": "El reto: instala el CLI, inicializa tu proyecto y lleva un cambio real de explore a archive, con dos escenarios y validación. Recuerda el hilo: el plan en la parte dos, la documentación como código en la parte seis y, aquí, las specs como contrato entre tú y el agente."
+    }
+  ]
+}

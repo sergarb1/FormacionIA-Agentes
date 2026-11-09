@@ -1,6 +1,6 @@
 {
   "_voice": "es-ES-AlvaroNeural",
-  "_note": "Narración de 'Desarrollo y Operaciones con agentes · Parte 6'",
+  "_note": "Narración de 'Desarrollo y Operaciones con agentes · Parte 8'",
   "slides": [
     {
       "id": 0,
@@ -55,7 +55,7 @@
     {
       "id": 10,
       "title": "Resumen de la serie",
-      "text": "Resumen de la serie: agentes, el flujo plan y hacer, AGENTS.md y skills, ejemplos de desarrollo, plugins y MCPs, y desarrollo más operaciones. IA como copiloto: tú pilotas, la IA acelera, y siempre revisa."
+      "text": "Resumen de la serie: agentes, el flujo plan y hacer, AGENTS.md y skills, ejemplos de desarrollo, plugins y MCPs, documentación como código, infraestructura como código, desarrollo más operaciones y OpenSpec. IA como copiloto: tú pilotas, la IA acelera, y siempre revisa."
     }
   ]
 }

@@ -24,7 +24,7 @@ mantener las presentaciones de este repo con **OpenCode + Freebuff**
 FormacionIA-Agentes/
 ├── slidev/                     # Proyecto Slidev (npm)
 │   ├── package.json            # Scripts: build, build:pdf, pdf
-│   ├── build-todos.mjs         # Compila/exporta los 8 decks (base abs. de Pages)
+│   ├── build-todos.mjs         # Compila/exporta los 9 decks (base abs. de Pages)
 │   ├── styles/index.css        # Estilos compartidos (todos los decks)
 │   ├── global-bottom.vue       # Botón 🔊 audio narrado + reproductor
 │   ├── 0N-<tema>.md            # Un archivo Markdown por deck
@@ -92,7 +92,7 @@ exportFilename: <slug-del-pdf>
 
 ```bash
 cd slidev
-node build-todos.mjs build          # HTML de los 8 decks (base absoluta de Pages)
+node build-todos.mjs build          # HTML de los 9 decks (base absoluta de Pages)
 node build-todos.mjs pdf            # solo PDFs (usa Chrome del sistema si existe)
 node build-todos.mjs build pdf      # los dos pasos
 ```
@@ -249,13 +249,13 @@ la slide 1 tiene altura, así que `measure-export` devuelve `de 1` — usar
 ## §7 · Checklist de QA antes de publicar
 
 - [ ] `node build-todos.mjs build` sin errores ni avisos de hidratación
-- [ ] PDFs regenerados y presentes en la raíz (8 decks)
-- [ ] Carpetas `0N-<tema>/` actualizadas en la raíz (8 decks)
+- [ ] PDFs regenerados y presentes en la raíz (9 decks)
+- [ ] Carpetas `0N-<tema>/` actualizadas en la raíz (9 decks)
 - [ ] Rutas de audio relativas (`../audio-…/`) intactas tras el build
 - [ ] Número de audios por deck = número de diapositivas (NN consecutivos desde 00)
 - [ ] `index.html` sin enlaces rotos (`grep -o 'href="[^"]*"' index.html`)
 - [ ] `README.md` con la tabla de presentaciones y contadores actualizados
-- [ ] QA por métrica (§6): `measure` y `check-empty` en los 8 decks sin salidas
-- [ ] `check-contrast` AA ≥ 4.5 en los 8 decks
+- [ ] QA por métrica (§6): `measure` y `check-empty` en los 9 decks sin salidas
+- [ ] `check-contrast` AA ≥ 4.5 en los 9 decks
 - [ ] Commit con los decks + PDFs + audio + carpetas publicadas
 - [ ] `git push` y verificación online (cada tarjeta del `index.html` responde 200)

@@ -2,7 +2,7 @@
 
 **Serie de presentaciones interactivas** para aprender, paso a paso, a usar **agentes de código con IA** en el desarrollo y en las operaciones — con herramientas **100 % gratuitas** (OpenCode + Freebuff), audio narrado y PDF descargable.
 
-🎯 8 presentaciones · 📊 97 diapositivas · 🎙️ Audio narrado · 📄 PDF imprimible · 🌱 De básico a avanzado
+🎯 9 presentaciones · 📊 110 diapositivas · 🎙️ Audio narrado · 📄 PDF imprimible · 🌱 De básico a avanzado
 
 > ✨ Hecho con **Freebuff (freebuff.com) + OpenCode (opencode.ai) + Slidev (sli.dev)**. Los decks citan también Claude Code, Codex y Antigravity como agentes alternativos con capa gratuita.
 
@@ -18,8 +18,9 @@
 | 4 | [👉 Ejemplos de desarrollo 👈](https://sergarb1.github.io/FormacionIA-Agentes/04-ejemplos-desarrollo/) | 🌳 Avanzado | 11 | 8 ejemplos con prompt completo: frontend con validación, API REST, migraciones de BD, tests de caracterización, refactor seguro, depuración, docs y Docker |
 | 5 | [👉 Plugins y MCPs 👈](https://sergarb1.github.io/FormacionIA-Agentes/05-plugins-mcp/) | 🌳 Avanzado | 12 | El estándar MCP, servidores de GitHub, base de datos (readonly) y navegador, plugins como paquetes de capacidades y seguridad con mínimo privilegio |
 | 6 | [👉 Documentación como código 👈](https://sergarb1.github.io/FormacionIA-Agentes/08-documentacion-as-code/) | 🌳 Avanzado | 11 | Docs vivas: Markdown en el repo, diagramas Mermaid y Excalidraw, ADRs por decisión, doc de API generada desde el código y la doc en el pipeline |
-| 7 | [👉 Infraestructura como código 👈](https://sergarb1.github.io/FormacionIA-Agentes/07-infra-as-code/) | 🌳 Avanzado | 11 | Infra versionada: Docker Compose con healthchecks, Terraform con plan antes de apply, Containerlab para topologías de laboratorio, Ansible idempotente y riesgos reales | 
-| 8 | [👉 Desarrollo y Operaciones con agentes 👈](https://sergarb1.github.io/FormacionIA-Agentes/06-devops-agentes/) | 🌳 Avanzado | 11 | Docker y compose con criterio, CI/CD con GitHub Actions, scripts de despliegue, observabilidad, auditoría de seguridad y uso responsable |
+| 7 | [👉 Infraestructura como código 👈](https://sergarb1.github.io/FormacionIA-Agentes/07-infra-as-code/) | 🌳 Avanzado | 11 | Infra versionada: Docker Compose con healthchecks, Terraform con plan antes de apply, Containerlab para topologías de laboratorio, Ansible idempotente y riesgos reales |
+| 8 | [👉 Desarrollo y Operaciones con agentes 👈](https://sergarb1.github.io/FormacionIA-Agentes/06-devops-agentes/) | 🌳 Avanzado | 11 | Docker y compose con criterio, CI/CD con GitHub Actions, scripts de despliegue, observabilidad, auditoría de seguridad y uso responsable | 
+| 9 | [👉 OpenSpec: especificaciones que el agente ejecuta 👈](https://sergarb1.github.io/FormacionIA-Agentes/09-openspec/) | 🌳 Avanzado | 13 | Spec-driven development: qué es OpenSpec, la carpeta `openspec/` (specs, changes, archive), instalar e inicializar, el ciclo explore → propose → apply → archive, formato de spec delta con requisitos y escenarios, CLI y errores típicos |
 
 ---
 
@@ -39,12 +40,12 @@
 ```
 📁 FormacionIA-Agentes/
 ├── 📄 index.html                    # Portada del proyecto
-├── 📁 01-…08-…/                     # Presentaciones publicadas (dist de Slidev)
-├── 📄 01-…08-…pdf                   # PDFs por presentación
+├── 📁 01-…09-…/                     # Presentaciones publicadas (dist de Slidev)
+├── 📄 01-…09-….pdf                  # PDFs por presentación
 │
 ├── 📁 slidev/                       # ⭐ Proyecto fuente (Markdown + npm)
 │   ├── package.json                 # Scripts: build / pdf
-│   ├── build-todos.mjs              # Compila y exporta los 8 decks
+│   ├── build-todos.mjs              # Compila y exporta los 9 decks
 │   ├── styles/index.css             # Estilos compartidos
 │   ├── global-bottom.vue            # Botón + reproductor de audio narrado
 │   └── 0N-<tema>.md                 # Fuente editable de cada deck
