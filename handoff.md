@@ -26,6 +26,7 @@ _Última actualización: 2026-11-09. Serie ampliada a **9 decks / 110 diapositiv
 - `check-contrast.mjs`: deck 09 **21.00:1** (AA ≥ 4.5) en 6 bloques `<pre>`.
 - PDFs: número de páginas = número de diapositivas en los 9 decks (15/12/14/11/12/11/11/11/13) y **los 9 regenerados el 2026-11-09**.
 - Audio: MP3 por deck = diapositivas (15/12/14/11/12/11/11/11/13 = 110).
+- **Pages verificado online (2026-11-09, tras el push `ce8b2f3`)**: 200 en las 9 presentaciones, los 9 PDFs, `index.html`, los MP3 y las portadas «Parte 9 de 9» / «Parte 8 de 9».
 
 ---
 
@@ -33,8 +34,7 @@ _Última actualización: 2026-11-09. Serie ampliada a **9 decks / 110 diapositiv
 
 ### Tareas directas (siguiente sesión)
 
-1. **Verificar el despliegue de Pages** tras el push: 200 en las 9 presentaciones, 9 PDFs y `index.html` con la tarjeta 9.
-2. **Terminar `measure-export.mjs`** — adaptado a la vista `?print`, pero en esa vista solo la slide 1 tiene altura, así que devuelve «de 1». Alternativas: `page.emulateMedia({media:'print'})` con ruta `/export/N` en un dev server, o medir sobre el PDF exportado. Mientras tanto, `measure.mjs` es la referencia.
+1. **Terminar `measure-export.mjs`** — adaptado a la vista `?print`, pero en esa vista solo la slide 1 tiene altura, así que devuelve «de 1». Alternativas: `page.emulateMedia({media:'print'})` con ruta `/export/N` en un dev server, o medir sobre el PDF exportado. Mientras tanto, `measure.mjs` es la referencia.
 
 ### Mejoras candidatas (no urgentes)
 
