@@ -2,7 +2,7 @@
 
 **Serie de presentaciones interactivas** para aprender, paso a paso, a usar **agentes de código con IA** en el desarrollo y en las operaciones — con herramientas **100 % gratuitas** (OpenCode + Freebuff), audio narrado y PDF descargable.
 
-🎯 9 presentaciones · 📊 110 diapositivas · 🎙️ Audio narrado · 📄 PDF imprimible · 🌱 De básico a avanzado
+🎯 10 presentaciones · 📊 123 diapositivas · 🎙️ Audio narrado · 📄 PDF imprimible · 🌱 De básico a avanzado
 
 > ✨ Hecho con **Freebuff (freebuff.com) + OpenCode (opencode.ai) + Slidev (sli.dev)**. Los decks citan también Claude Code, Codex y Antigravity como agentes alternativos con capa gratuita.
 
@@ -21,6 +21,7 @@
 | 7 | [👉 Infraestructura como código 👈](https://sergarb1.github.io/FormacionIA-Agentes/07-infra-as-code/) | 🌳 Avanzado | 11 | Infra versionada: Docker Compose con healthchecks, Terraform con plan antes de apply, Containerlab para topologías de laboratorio, Ansible idempotente y riesgos reales |
 | 8 | [👉 Desarrollo y Operaciones con agentes 👈](https://sergarb1.github.io/FormacionIA-Agentes/06-devops-agentes/) | 🌳 Avanzado | 11 | Docker y compose con criterio, CI/CD con GitHub Actions, scripts de despliegue, observabilidad, auditoría de seguridad y uso responsable | 
 | 9 | [👉 OpenSpec: especificaciones que el agente ejecuta 👈](https://sergarb1.github.io/FormacionIA-Agentes/09-openspec/) | 🌳 Avanzado | 13 | Spec-driven development: qué es OpenSpec, la carpeta `openspec/` (specs, changes, archive), instalar e inicializar, el ciclo explore → propose → apply → archive, formato de spec delta con requisitos y escenarios, CLI y errores típicos |
+| 10 | [👉 Seguridad y confianza en agentes 👈](https://sergarb1.github.io/FormacionIA-Agentes/10-seguridad-agentes/) | 🌳 Avanzado | 13 | Dar autonomía sin perder el control: modelo de amenazas, prompt injection, mínimo privilegio y sandbox, secretos, cadena de suministro de skills y MCPs, revisión humana del diff, datos y licencias, auditoría y respuesta a incidentes |
 
 ---
 
@@ -40,12 +41,12 @@
 ```
 📁 FormacionIA-Agentes/
 ├── 📄 index.html                    # Portada del proyecto
-├── 📁 01-…09-…/                     # Presentaciones publicadas (dist de Slidev)
-├── 📄 01-…09-….pdf                  # PDFs por presentación
+├── 📁 01-…10-…/                     # Presentaciones publicadas (dist de Slidev)
+├── 📄 01-…10-….pdf                  # PDFs por presentación
 │
 ├── 📁 slidev/                       # ⭐ Proyecto fuente (Markdown + npm)
 │   ├── package.json                 # Scripts: build / pdf
-│   ├── build-todos.mjs              # Compila y exporta los 9 decks
+│   ├── build-todos.mjs              # Compila y exporta los 10 decks
 │   ├── styles/index.css             # Estilos compartidos
 │   ├── global-bottom.vue            # Botón + reproductor de audio narrado
 │   └── 0N-<tema>.md                 # Fuente editable de cada deck

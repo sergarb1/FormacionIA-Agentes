@@ -13,7 +13,7 @@ exportFilename: devops-agentes
 <audio class="deck-audio" src="../audio-devops-agentes/slide00.mp3"></audio>
 
 <h2 style="font-size:2em;text-align:center;">🚀 Desarrollo y Operaciones<br>con agentes de IA</h2>
-<h3 style="text-align:center;">IA como Copiloto · Parte 8 de 9</h3>
+<h3 style="text-align:center;">IA como Copiloto · Parte 8 de 10</h3>
 <p style="text-align:center;margin-top:1.2em;">👤 Sergi Garcia Barea</p>
 <div style="text-align:center;margin-top:.4em;">
   <span style="display:inline-block;background:#f1f5f9;padding:4px 14px;border-radius:6px;font-size:.5em;">
@@ -319,7 +319,7 @@ Report con severidad y parche
 <audio class="deck-audio" src="../audio-devops-agentes/slide10.mp3"></audio>
 
 <h2>✨ Resumen de la serie completa</h2>
-<div class="g3" style="font-size:.68em;">
+<div class="g3" style="font-size:.6em;">
   <div class="card" style="border-top:4px solid #10b981;">
     <p class="sm"><strong>1 · Agentes de código</strong> — qué son, gratis: OpenCode + Freebuff, y las alternativas: Claude Code, Codex, Antigravity</p>
   </div>
@@ -347,7 +347,10 @@ Report con severidad y parche
   <div class="card" style="border-top:4px solid #0d9488;">
     <p class="sm"><strong>9 · OpenSpec</strong> — el plan como contrato: specs, cambios y archivo dentro del repo</p>
   </div>
+  <div class="card" style="border-top:4px solid #b91c1c;">
+    <p class="sm"><strong>10 · Seguridad y confianza</strong> — permisos, secretos, revisión humana y auditoría</p>
+  </div>
 </div>
 <div class="tip" style="margin-top:.5em;">🎯 IA como copiloto de desarrollo y operaciones: <strong>tú pilotas, la IA acelera</strong> — y siempre revisa.</div>
-<p class="sm" style="text-align:center;margin-top:.3em;">Siguiente: <strong>OpenSpec</strong> — las especificaciones como contrato entre tú y el agente. 📋</p>
+<p class="sm" style="text-align:center;margin-top:.3em;">Siguiente: <strong>OpenSpec</strong> (parte 9) y <strong>seguridad y confianza</strong> (parte 10). 📋🛡️</p>
 <p style="text-align:center;font-size:.45em;color:#94a3b8;margin-top:.4em;">CC BY-SA 4.0 · Sergi Garcia Barea · Octubre 2026</p>

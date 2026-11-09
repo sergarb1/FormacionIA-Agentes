@@ -1,0 +1,71 @@
+{
+  "_voice": "es-ES-AlvaroNeural",
+  "_note": "Narración de 'Seguridad y confianza en agentes · Parte 10'",
+  "slides": [
+    {
+      "id": 0,
+      "title": "Portada",
+      "text": "Parte diez de la serie: seguridad y confianza en agentes. Cómo dar autonomía al copiloto sin perder el control: permisos, secretos, revisión humana y auditoría."
+    },
+    {
+      "id": 1,
+      "title": "El agente tiene manos",
+      "text": "La seguridad cambia porque el agente lee, ejecuta y escribe. Lee repositorios, issues, webs y respuestas de herramientas, y todo ese texto puede comportarse como una instrucción. Ejecuta comandos, tests y despliegues. Y escribe archivos, commits e infraestructura. La regla es simple: el riesgo crece con la capacidad, el acceso y la autonomía; si subes una, baja otra."
+    },
+    {
+      "id": 2,
+      "title": "Modelo de amenazas",
+      "text": "Cuatro frentes: la inyección de instrucciones que llega por README, issues, webs o salidas de MCP; la fuga de secretos por el chat, los logs o un fichero de entorno versionado; las acciones destructivas como borrar, resetear o migrar sin aprobación; y la cadena de suministro de skills, plugins y servidores MCP de terceros."
+    },
+    {
+      "id": 3,
+      "title": "Prompt injection",
+      "text": "Un README puede contener una nota para el asistente pidiendo ignorar las instrucciones y ejecutar un comando. El agente no distingue dato de orden: ese texto entra en el contexto igual que tu prompt. Defiéndete tratando documentos, issues y salidas de herramientas como datos, no como instrucciones; pidiendo resúmenes y citas en vez de obediencia; y revisando qué entra al contexto antes de ejecutar."
+    },
+    {
+      "id": 4,
+      "title": "Mínimo privilegio",
+      "text": "Configura por capacidad: lectura permitida sin secretos en el árbol; escritura con aprobación por diff; ejecución con lista blanca, sin borrados ni tuberías a shell; red cerrada salvo dominios necesarios; MCP y plugins con permisos mínimos y, si se puede, solo lectura. Aísla en contenedor o carpeta acotada: el sandbox no sustituye la revisión, pero reduce el daño."
+    },
+    {
+      "id": 5,
+      "title": "Secretos",
+      "text": "Los secretos no van al contexto ni a Git. Ignora los ficheros de entorno, deja un ejemplo sin valores reales y escanea antes de cada push con gitleaks o trufflehog. No pegues claves en el chat ni pidas al agente que lea el fichero de entorno. Y si algo se filtra, rota la clave primero: borrar el commit no borra el secreto de los registros."
+    },
+    {
+      "id": 6,
+      "title": "Cadena de suministro",
+      "text": "Las skills y los servidores MCP son código de terceros con permisos. Antes de instalar, lee la skill entera y sus scripts, comprueba quién la mantiene y qué issues tiene, revisa qué permisos pide el servidor y fija versión o commit. Empieza en solo lectura y amplía cuando confíes. Un MCP es una dependencia más y merece la misma revisión."
+    },
+    {
+      "id": 7,
+      "title": "Revisión humana",
+      "text": "Revisa el alcance del diff, si los tests se añaden o se debilitan, las dependencias nuevas, la configuración y la lógica de negocio. Señales de alarma: diffs enormes para cambios pequeños, tests borrados o saltados, errores silenciados y cambios que nadie pidió. Si no puedes explicar el cambio línea a línea, no lo mergees."
+    },
+    {
+      "id": 8,
+      "title": "Datos y licencias",
+      "text": "Antes de compartir código o documentos, revisa qué envías y qué retiene el proveedor. Comprueba la licencia del repositorio y las obligaciones del código generado, que puede parecerse a fragmentos existentes. Y declara el uso de IA según las normas del proyecto. Con datos personales, minimiza y anonimiza: no subas a un chat lo que no subirías a un ticket público."
+    },
+    {
+      "id": 9,
+      "title": "Auditoría",
+      "text": "Registra comandos y resultados, diffs y PRs, quién aprobó cada cambio, qué herramientas estaban activas y el coste. No para vigilar, sino para reconstruir un incidente, demostrar que hubo revisión humana, detectar patrones de riesgo y medir la adopción con datos."
+    },
+    {
+      "id": 10,
+      "title": "Cuando algo sale mal",
+      "text": "Cuatro pasos: detener al agente y cerrar la sesión; revocar claves, permisos y herramientas que sobren; revertir el commit o el despliegue y comprobar los datos; y hacer un postmortem sin culpables que responda qué permiso sobraba y qué revisión faltó. Ten el plan escrito antes del incidente."
+    },
+    {
+      "id": 11,
+      "title": "Checklist",
+      "text": "Antes de dar autonomía: permisos mínimos, secretos fuera del contexto, sandbox, skills y MCPs revisados y comandos destructivos con aprobación. En cada cambio: diff pequeño, tests que verifican, sin secretos ni dependencias inesperadas y revisión humana real antes del merge. Si una casilla no se cumple, es una decisión pendiente, no un casi seguro."
+    },
+    {
+      "id": 12,
+      "title": "Reto y cierre",
+      "text": "El reto: audita tu repositorio antes de dar autonomía, revisa permisos, secretos, skills y MCPs, y escribe tu checklist de revisión. Con esto cierras las diez partes: fundamentos, flujo, contexto, práctica, herramientas, documentación, infraestructura, operaciones, especificaciones y seguridad. Tú pilotas; la IA acelera."
+    }
+  ]
+}

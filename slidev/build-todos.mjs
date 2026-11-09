@@ -1,5 +1,5 @@
 // Compila y exporta todos los decks de Slidev del proyecto.
-//   node build-todos.mjs           → build SPA de los 9 decks (dist/<slug>/)
+//   node build-todos.mjs           → build SPA de los 10 decks (dist/<slug>/)
 //   node build-todos.mjs build pdf → build + export de PDF
 //   node build-todos.mjs pdf       → solo export de PDF
 import { spawnSync } from 'node:child_process'
@@ -21,6 +21,7 @@ const DECKS = [
   { entry: '07-infra-as-code.md',        slug: '07-infra-as-code',        pdf: '07-infra-as-code.pdf' },
   { entry: '08-documentacion-as-code.md', slug: '08-documentacion-as-code', pdf: '08-documentacion-as-code.pdf' },
   { entry: '09-openspec.md',            slug: '09-openspec',            pdf: '09-openspec.pdf' },
+  { entry: '10-seguridad-agentes.md',   slug: '10-seguridad-agentes',   pdf: '10-seguridad-agentes.pdf' },
 ]
 
 function run(args) {

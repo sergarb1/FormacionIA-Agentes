@@ -13,7 +13,7 @@ exportFilename: openspec
 <audio class="deck-audio" src="../audio-openspec/slide00.mp3"></audio>
 
 <h1 style="text-align:center;font-size:1.8em;">📋 OpenSpec</h1>
-<h3 style="text-align:center;">IA como Copiloto · Parte 9 de 9</h3>
+<h3 style="text-align:center;">IA como Copiloto · Parte 9 de 10</h3>
 <p style="text-align:center;margin-top:.5em;" class="sm"><button class="credit">🌳 Nivel: avanzado · 📋 Spec-driven · 🧩 proposal / specs / design / tasks · 🔁 explore → propose → apply → archive</button></p>
 <p style="text-align:center;margin-top:.3em;" class="sm"><strong>Sergi Garcia Barea</strong> · Noviembre 2026 · CC BY-SA 4.0</p>
 
@@ -324,5 +324,5 @@ notas a CSV'. No escribas código
 hasta que apruebe el plan."</code></pre>
   </div>
 </div>
-<p class="sm" style="text-align:center;margin-top:.4em;">Cierre de la serie: <strong>plan en la parte 2</strong>, <strong>docs as code en la parte 6</strong>, <strong>specs como contrato en esta parte 9</strong>.</p>
+<p class="sm" style="text-align:center;margin-top:.4em;">Siguiente (parte 10): <strong>seguridad y confianza</strong>. Recuerda el hilo: <strong>plan en la parte 2</strong> y <strong>docs as code en la parte 6</strong>.</p>
 <p style="text-align:center;font-size:.45em;color:#94a3b8;margin-top:.4em;">CC BY-SA 4.0 · Sergi Garcia Barea · Noviembre 2026</p>

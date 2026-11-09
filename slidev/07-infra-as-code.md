@@ -13,7 +13,7 @@ exportFilename: infra-as-code
 <audio class="deck-audio" src="../audio-infra-as-code/slide00.mp3"></audio>
 
 <h1 style="text-align:center;font-size:1.8em;">🏗️ Infraestructura como código</h1>
-<h3 style="text-align:center;">IA como Copiloto · Parte 7 de 9</h3>
+<h3 style="text-align:center;">IA como Copiloto · Parte 7 de 10</h3>
 <p style="text-align:center;margin-top:.5em;" class="sm"><button class="credit">🌱 Nivel: avanzado · ☁️ Terraform · Docker Compose · Containerlab · Ansible</button></p>
 <p style="text-align:center;margin-top:.3em;" class="sm"><strong>Sergi Garcia Barea</strong> · Octubre 2026 · CC BY-SA 4.0</p>
 

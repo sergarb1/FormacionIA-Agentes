@@ -13,7 +13,7 @@ exportFilename: documentacion-as-code
 <audio class="deck-audio" src="../audio-documentacion-as-code/slide00.mp3"></audio>
 
 <h1 style="text-align:center;font-size:1.8em;">📐 Documentación como código</h1>
-<h3 style="text-align:center;">IA como Copiloto · Parte 6 de 9</h3>
+<h3 style="text-align:center;">IA como Copiloto · Parte 6 de 10</h3>
 <p style="text-align:center;margin-top:.5em;" class="sm"><button class="credit">🌳 Nivel: avanzado · 📝 Markdown · 📊 Mermaid · 🎨 Excalidraw · 🥅 Docs en el pipeline</button></p>
 <p style="text-align:center;margin-top:.3em;" class="sm"><strong>Sergi Garcia Barea</strong> · Octubre 2026 · CC BY-SA 4.0</p>
 
@@ -239,7 +239,7 @@ decisión importante."</code></pre>
 </div>
 <div class="g2" style="margin-top:.5em;">
   <div class="card" style="border-top:3px solid #ea580c;">
-    <p class="sm">🗓️ <strong>Serie completa</strong>: agentes de código · Plan → Hacer · AGENTS.md y skills · ejemplos de desarrollo · plugins y MCPs · documentación como código · infraestructura como código · desarrollo y operaciones con agentes · OpenSpec</p>
+    <p class="sm">🗓️ <strong>Serie completa</strong>: agentes de código · Plan → Hacer · AGENTS.md y skills · ejemplos de desarrollo · plugins y MCPs · documentación como código · infraestructura como código · desarrollo y operaciones con agentes · OpenSpec · seguridad y confianza</p>
   </div>
   <div class="card" style="border-top:3px solid #10b981;">
     <p class="sm">🎯 <strong>Tú pilotas, la IA acelera</strong>: revisa, entrena tu criterio y comparte lo que aprendas. 🚀</p>
